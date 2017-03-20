@@ -6,7 +6,7 @@ var mailgun = require('mailgun-js')({
 });
 var info_email = process.env.INFO_EMAIL;
 var webmaster_email = process.env.WEBMASTER_EMAIL;
-var coupons = require('./routes/coupons');
+var coupons = require('./coupons');
 var Paypal = require('paypal-express-checkout');
 var paypal = Paypal.init(
   process.env.PAYPAL_USERNAME || 'fcsonline-facilitator_api1.gmail.com',
