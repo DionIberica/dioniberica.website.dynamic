@@ -3,9 +3,10 @@ var router = express.Router();
 var Raven = require('raven');
 
 const MAX_ITEMS = 100;
+const DEFAULT_ITEMS = 1;
 
 function getCurrentItems(req) {
-  return req.session.items || 0;
+  return req.session.items || DEFAULT_ITEMS;
 }
 
 router.get('/', (req, res, next) => {
