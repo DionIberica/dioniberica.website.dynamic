@@ -1,24 +1,46 @@
 var express = require('express');
+var session = require('express-session');
 var path = require('path');
 var logger = require('morgan');
-var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var Raven = require('raven');
+
+// Raven.config(process.env.RAVEN_DSN || 'lol').install();
 
 var contact = require('./routes/contact');
+var ping = require('./routes/ping');
+var checkout = require('./routes/checkout');
+var cart = require('./routes/cart');
 
 var app = express();
+
+app.use(Raven.requestHandler());
+app.use(Raven.errorHandler());
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
+app.set('trust proxy', 1);
+app.use(session({
+  secret: 'test',
+  // store: new redisStore({ host: 'localhost', port: 6379, client: client,ttl :  260}),
+  saveUninitialized: false,
+  resave: false,
+  cookie: {
+    // secure: true,
+    // httpOnly: true,
+  }
+}));
+
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
-app.use(cookieParser());
-app.use(express.static(path.join(__dirname, '../dioniberica.website.static/_site')));
 
 app.use('/contact', contact);
+app.use('/ping', ping);
+app.use('/checkout', checkout);
+app.use('/cart', cart);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

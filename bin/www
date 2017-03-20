@@ -70,7 +70,7 @@ function onListening() {
 
 function shutdown() {
   server.close();
-  process.exit();
+  process.exit(0);
 }
 
 process.on('SIGINT', shutdown);
