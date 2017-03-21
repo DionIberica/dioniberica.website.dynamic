@@ -1,36 +1,39 @@
 var express = require('express');
 var router = express.Router();
 var Raven = require('raven');
+var Cart = require('../lib/cart');
 
-const MAX_ITEMS = 100;
-const DEFAULT_ITEMS = 1;
-
-function getCurrentItems(req) {
-  return req.session.items || DEFAULT_ITEMS;
-}
+router.all('*', (req, res, next) => {
+  req.cart = new Cart(req.session, 1, 100);
+  next();
+});
 
 router.get('/', (req, res, next) => {
-  req.session.items = getCurrentItems(req);
-
   next();
 });
 
 router.post('/add', (req, res, next) => {
-  req.session.items = Math.min(getCurrentItems(req) + 1, MAX_ITEMS);
+  req.cart.add();
 
   next();
 });
 
 router.post('/subtract', (req, res, next) => {
-  req.session.items = Math.max(getCurrentItems(req) - 1, 0);
+  req.cart.subtract();
+
+  next();
+});
+
+router.post('/coupon', (req, res, next) => {
+  req.cart.setCoupon(req.body.coupon);
 
   next();
 });
 
 router.all('*', (req, res) => {
-  res.json({
-    items: getCurrentItems(req)
-  });
+  req.cart.save();
+
+  res.json(req.cart.toJSON());
 });
 
 module.exports = router;
