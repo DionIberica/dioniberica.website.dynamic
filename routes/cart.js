@@ -30,6 +30,13 @@ router.post('/coupon', (req, res, next) => {
   next();
 });
 
+router.post('/checkout', (req, res, next) => {
+  req.cart.setToken(req.body.stripeToken);
+  req.cart.setEmail(req.body.stripeEmail);
+
+  next();
+});
+
 router.all('*', (req, res) => {
   req.cart.save();
 
