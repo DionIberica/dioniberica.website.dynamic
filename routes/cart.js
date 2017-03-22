@@ -1,7 +1,6 @@
 var express = require('express');
 var router = express.Router();
 var Raven = require('raven');
-var stripe = require('stripe')('sk_test_XCQ8tR2I83v6UnxXS4yTAtjP');
 var Cart = require('../lib/cart');
 
 router.all('*', (req, res, next) => {
@@ -32,6 +31,9 @@ router.post('/coupon', (req, res, next) => {
 });
 
 router.post('/checkout', (req, res) => {
+  var locale = req.body.locale;
+  var key = process.env['STRIPE_' + locale.toUpperCase()];
+  var stripe = require('stripe')(key);
   var token = req.body.stripeToken;
 
   req.cart.setToken(req.body.stripeToken);
