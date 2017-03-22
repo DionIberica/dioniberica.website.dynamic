@@ -37,7 +37,14 @@ router.post('/checkout', (req, res) => {
   req.cart.setToken(req.body.stripeToken);
   req.cart.setEmail(req.body.stripeEmail);
 
-  stripe.charges.retrieve(token, (err, charge) => {
+  // Charge the user's card:
+  stripe.charges.create({
+    amount: req.cart.compute(),
+    currency: "eur",
+    description: "Dion Iberica",
+    metadata: {order_id: 6735},
+    source: token,
+  }, function(err, charge) {
     res.json(charge);
   });
 });
