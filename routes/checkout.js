@@ -12,7 +12,12 @@ router.get('/preview', function(req, res) {
   var stripe = require('stripe')(key);
 
   stripe.charges.retrieve("ch_1A0eqlHgbV9vBiCll57e7Qnq", function(err, charge) {
-    res.app.render('preview', charge, function(err, html){
+    const data = {
+      charge: charge,
+      cart: {}
+    };
+
+    res.app.render('preview', data, function(err, html){
       if(err) console.log(err);
 
       res.status(200).send(html);
