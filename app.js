@@ -23,8 +23,8 @@ app.set('view engine', 'jade');
 
 app.set('trust proxy', 1);
 app.use(session({
-  secret: 'test',
-  // store: new redisStore({ host: 'localhost', port: 6379, client: client,ttl :  260}),
+  secret: process.env.REDIS_SECRET_KEY,
+  store: new redisStore({ host: 'localhost', port: 6379, client: client,ttl :  260}),
   saveUninitialized: false,
   resave: false,
   cookie: {
