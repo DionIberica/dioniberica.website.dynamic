@@ -1,6 +1,8 @@
 var express = require('express');
 var session = require('express-session');
 var redisStore = require('connect-redis')(session);
+var redis = require('redis');
+var client = redis.createClient();
 var path = require('path');
 var logger = require('morgan');
 var bodyParser = require('body-parser');
@@ -25,7 +27,7 @@ app.set('view engine', 'jade');
 app.set('trust proxy', 1);
 app.use(session({
   secret: process.env.REDIS_SECRET_KEY,
-  store: new redisStore({ host: 'localhost', port: 6379, client: client,ttl :  260}),
+  store: new redisStore({ host: 'localhost', port: 6379, client: client, ttl: 260}),
   saveUninitialized: false,
   resave: false,
   cookie: {
