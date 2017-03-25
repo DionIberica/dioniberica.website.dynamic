@@ -4,7 +4,10 @@ var Raven = require('raven');
 var Cart = require('../lib/cart');
 
 router.all('*', (req, res, next) => {
-  req.cart = new Cart(req.session, 1, 100);
+  var locale = req.query.locale;
+
+  req.cart = new Cart(req.session, 1, 100, locale);
+
   next();
 });
 
