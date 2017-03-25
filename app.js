@@ -1,5 +1,6 @@
 var express = require('express');
 var session = require('express-session');
+var redisStore = require('connect-redis')(session);
 var path = require('path');
 var logger = require('morgan');
 var bodyParser = require('body-parser');
