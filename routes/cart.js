@@ -34,20 +34,29 @@ router.post('/checkout', (req, res) => {
   var locale = req.body.locale;
   var key = process.env['STRIPE_' + locale.toUpperCase()];
   var stripe = require('stripe')(key);
+
+  var email = req.body.stripeEmail;
   var token = req.body.stripeToken;
 
-  req.cart.setToken(req.body.stripeToken);
-  req.cart.setEmail(req.body.stripeEmail);
+  req.cart.setEmail(email);
 
-  // Charge the user's card:
-  stripe.charges.create({
-    amount: req.cart.compute(),
-    currency: "eur",
-    description: "Dion Iberica",
-    metadata: {order_id: 6735},
-    source: token,
-  }, function(err, charge) {
-    res.json(charge);
+  stripe.customers.create({
+    email: email
+  }).then(() => {
+    return  stripe.charges.create({
+      amount: req.cart.compute(),
+      currency: "eur",
+      description: "Dion Iberica",
+      metadata: {order_id: 6735},
+      source: token,
+    });
+  }).then((charge) => {
+    res.json({
+      email: email,
+      charge: charge,
+    });
+  }).catch((reason) => {
+    res.status(409).send(reason);
   });
 });
 
