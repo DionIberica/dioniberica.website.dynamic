@@ -35,6 +35,9 @@ router.post('/coupon', (req, res, next) => {
 
 router.post('/checkout', (req, res) => {
   var locale = req.body.locale;
+  var success = req.body.success;
+  var failure = req.body.failure;
+
   var key = process.env['STRIPE_' + locale.toUpperCase()];
   var stripe = require('stripe')(key);
 
@@ -58,8 +61,9 @@ router.post('/checkout', (req, res) => {
       email: email,
       charge: charge,
     });
+    res.redirect(success);
   }).catch((reason) => {
-    res.status(409).send(reason);
+    res.redirect(failure);
   });
 });
 
