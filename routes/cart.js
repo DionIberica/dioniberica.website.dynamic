@@ -57,10 +57,6 @@ router.post('/checkout', (req, res) => {
       source: token,
     });
   }).then((charge) => {
-    res.json({
-      email: email,
-      charge: charge,
-    });
     res.redirect(success);
   }).catch((reason) => {
     res.redirect(failure);
