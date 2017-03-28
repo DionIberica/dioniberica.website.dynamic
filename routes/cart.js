@@ -2,6 +2,7 @@ var express = require('express');
 var router = express.Router();
 var Raven = require('raven');
 var Cart = require('../lib/cart');
+var sendCheckoutEmail = require('../lib/emails/checkout');
 
 router.all('*', (req, res, next) => {
   var locale = req.query.locale;
@@ -57,8 +58,15 @@ router.post('/checkout', (req, res) => {
       source: token,
     });
   }).then((charge) => {
+    return sendCheckoutEmail(req.app, {
+      email: email,
+      charge: charge,
+      cart: req.cart.toJSON(),
+    });
+  }).then((charge) => {
     res.redirect(success);
   }).catch((reason) => {
+    console.log(reason);
     res.redirect(failure);
   });
 });
