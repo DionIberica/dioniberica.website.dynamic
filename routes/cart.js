@@ -35,6 +35,7 @@ router.post('/coupon', (req, res, next) => {
 });
 
 router.post('/checkout', (req, res) => {
+  var cart = req.cart.toJSON();
   var locale = req.body.locale;
   var success = req.body.success;
   var failure = req.body.failure;
@@ -44,6 +45,7 @@ router.post('/checkout', (req, res) => {
 
   var email = req.body.stripeEmail;
   var token = req.body.stripeToken;
+  var results = {};
 
   req.cart.setEmail(email);
 
@@ -58,10 +60,36 @@ router.post('/checkout', (req, res) => {
       source: token,
     });
   }).then((charge) => {
+    results.charge = charge;
+
+    var source = charge.source;
+
+    return stripe.orders.create({
+      currency: 'eur',
+      items: [
+        {
+          type: 'sku',
+          parent: 'sku_1',
+          amount: cart.price,
+          quantity: cart.items,
+        }
+      ],
+      shipping: {
+        name: source.name,
+        address: {
+          line1: source.address_line1,
+          city: source.address_city,
+          country: source.address_country,
+          postal_code: source.address_zip
+        }
+      },
+      email: email
+    });
+  }).then((order) => {
     return sendCheckoutEmail(req.app, {
       email: email,
-      charge: charge,
-      cart: req.cart.toJSON(),
+      charge: results.charge,
+      cart: cart,
     });
   }).then((charge) => {
     res.redirect(success);
