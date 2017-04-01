@@ -39,9 +39,7 @@ router.post('/checkout', (req, res) => {
   var locale = req.body.locale;
   var success = req.body.success;
   var failure = req.body.failure;
-
-  var key = process.env['STRIPE_' + locale.toUpperCase()];
-  var stripe = require('stripe')(key);
+  var stripe = req.app.get('stripe')(locale);
 
   var email = req.body.stripeEmail;
   var token = req.body.stripeToken;

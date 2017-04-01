@@ -8,10 +8,9 @@ var info_email = process.env.INFO_EMAIL;
 var webmaster_email = process.env.WEBMASTER_EMAIL;
 
 router.get('/preview', function(req, res) {
-  var key = process.env['STRIPE_EN'];
-  var stripe = require('stripe')(key);
+  var stripe = req.app.get('stripe')('en');
 
-  stripe.charges.retrieve("ch_1A0eqlHgbV9vBiCll57e7Qnq", function(err, charge) {
+  stripe.charges.retrieve("ch_1A3KbUHgbV9vBiClmu9ftgQW", function(err, charge) {
     const data = {
       charge: charge,
       cart: {}
