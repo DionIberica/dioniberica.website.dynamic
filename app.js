@@ -7,6 +7,7 @@ var path = require('path');
 var logger = require('morgan');
 var bodyParser = require('body-parser');
 var Raven = require('raven');
+var i18n = require('i18n-2');
 
 // Raven.config(process.env.RAVEN_DSN || 'lol').install();
 
@@ -19,6 +20,17 @@ var app = express();
 
 app.use(Raven.requestHandler());
 app.use(Raven.errorHandler());
+
+i18n.expressBind(app, {
+  locales: ['ca', 'es', 'pt', 'en'],
+  defaultLocale: 'es',
+  extension: '.yml',
+  parse: (data, foo) => {
+    var parsed = require('js-yaml').safeLoad(data);
+    var locale = Object.keys(parsed)[0];
+    return parsed[locale];
+  }
+});
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));

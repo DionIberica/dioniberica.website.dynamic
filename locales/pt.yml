@@ -1,0 +1,271 @@
+# Do not edit this generated file
+---
+pt:
+  home:
+    favicon:
+      title: DION | Antecipa-te à ressaca
+    main-title: Antecipa-te à ressaca com Dion
+    main-subtitle: 'DION: O novo suplemento alimentar à base de plantas e vitaminas
+      que ajuda a previnir a ressaca.'
+    main:
+      url: imagenes/Concierto.jpg
+      how-it-works:
+        link: COMO FUNCIONA?
+      buy:
+        link: COMPRAR
+    why:
+      title: Já podes aproveitar das tuas festas sem te preocupares com os sintomas
+        da ressaca.
+      text: Se tomares um comprimido Dion durante o consumo de álcool, estás a dar
+        ao teu corpo a energia necessária para processar o álcool a maior velocidade
+        e assim poderás acordar sem sofrer dos penosos sintomas de ressaca.
+    steps:
+      title: Instruções
+      subtitle: Segue estes três simples passos e poderás esquecer-te das ressacas.
+    suggestions:
+      title: RECOMENDAÇÕES
+      more: Mais informação
+    opinion:
+      title: Opiniões
+    composition:
+      title: Composição
+      text: |-
+        Complemento alimenticio natural compuesto a base de vitaminas y extractos de planta.
+        Suplemento alimentar, composto à base de vitaminas e extratos de plantas.
+      product:
+        photo: "/producto/PT/blister-design.jpg"
+      price:
+        value: 5€
+        VAT: "(IVA não incluído)"
+      more:
+        info: Mais informação
+    add-to-cart:
+      text: ADICIONAR AO CARRINHO
+  meta:
+    description: Se tomares Dion poderás aproveitar as tuas festas e evitar a ressaca
+      do dia seguinte.
+    keywords: ressaca, antiressaca, evitar, prevenir, curar, dor de cabeça, antecipar,
+      álcool, remedio, festa, party, discoteca, cerveja, vinho, fim de semana, amigos,
+      amigas, casamentos, despedidas de solteiro, despedidas de solteira, viagem,
+      viagens, bachellor, erasmus, residencia de estudantes, farmácia, saúde, natural,
+      cardo mariano, vitamina, vitamina B12, B12, B 12, complexo multivitaminico,
+      comprimidos, capsulas, Celine Dion, musica, dj, kit antiressaca, económico,
+      barato, sexo, porno, droga, drogas, ibuprofeno, brufen, aspirina, hang over,
+      hangover, star wars, água, sumo laranja, B1, B2, B6, acetilcisteina
+  menu:
+    home:
+      title: Inicio
+    faqs:
+      title: FAQ
+    contact:
+      title: Contacta
+    product:
+      title: Produto
+    about:
+      title: Sobre nós
+  generic:
+    language: Idioma
+  locales:
+    en: English
+    es: Español
+    ca: Català
+    pt: Portuguese
+  banner:
+    text: 'Promoção de lançamento: Gastos de envio incluídos'
+    button:
+      buy: Comprar
+  contact:
+    title: Contactos
+    subtitle: Caso tenhas alguma pergunta, dúvida, opinião ou queiras simplesmente
+      cumprimentar-nos, pode fazê-lo com o seguinte formulário de contacto.
+    field:
+      name: Nome e apelido
+      email: Email
+      title: Assunto
+      msg: Mensagem
+    button:
+      send: Enviar
+    footer:
+      address: Morada
+      mail: Dados de contacto
+      social: Redes sociais
+    socialmedia:
+      facebook: https://www.facebook.com/dionport/
+      instagram: https://www.instagram.com/dion_pt
+    map:
+      longitude: '38.692116'
+      latitude: "-9.3218501"
+    message_placeholder: Mensagem
+    subject_placeholder: Assunto
+    telephone_placeholder: Introduz o teu telemóvel
+    email_placeholder: Introduz o teu email
+    name_placeholder: Introduz o teu nome
+    text: Diz-nos onde gostavas de encontrar Dion e nós levaremos
+  contact-sent:
+    title: Contacto
+    message: Se não fazes agora, quando?
+    sent_title: A tua mensagem foi enviada corretamente
+    sent_description: Obrigado por entrares em contacto conosco
+  footer:
+    contact:
+      title: Contacta
+    follow:
+      title: Segue-nos
+    company:
+      name: Dion Iberica LDA.
+    email: info-pt@dioniberica.com
+    address: Alameda Conde Oeiras - Torre I R/C Esq. 2780-139 Oeiras
+    telephone: "(+351) 91 261 38 66"
+  faqs:
+    title: Faqs
+    section1:
+      title: Perguntas frequentes
+      text: Criámos uma lista de perguntas mais frequentes para que tenhas toda a
+        informação necessária a qualquer momento. Caso tenhas alguma dúvida, entra
+        em contacto conosco.
+    section2:
+      title: Perguntas não tão frequentes
+      text: Criámos outra lista, com perguntas menos frequentes, que acreditamos que
+        merecem também uma resposta.
+  product:
+    title: Blister com 10 comprimidos Dion
+    price:
+      title: Preço
+      data: 5 € (+1.15 € VAT)
+    cad:
+      title: 'Validade:'
+      data: 3 anos
+    shipping:
+      title: 'Método de envio:'
+      data: Correios
+    composition:
+      title: Composição
+    cm:
+      beneficios:
+        title: 'Beneficios do Cardo Mariano:'
+      data: |-
+        O Cardo Mariano é uma planta que cresce livremente na natureza e que o ser humano utiliza desde os tempos antigos, devido às suas multiplas propriedades medicinais.
+        Os primeiros vestígios escritos sobre as propriedades curativas do Cardo Mariano remontam a época dos gregos, quando o médico Dioscórides o utilizava para tratar picadas de serpentes, ou quando Plinio usava como remédio para a bilis. Posteriormente na idade média, o Cardo Mariano é descrito como portente antídoto para desintoxicar o fígado.
+        Entre estas propriedades, destaca-se o facto de ser um eficiente protetor hepático, protegendo das tóxinas e estimulando o crescimento e a regeneração de novos tecidos do fígado.
+      contraindicaciones:
+        title: 'Contra indicações do Cardo Mariano:'
+        description: |-
+          O Cardo Mariano não tem efeitos toxicos para o organismo.
+          Ainda que tradicionalmente se utilizou Cardo Mariano para aumentar a quantidade de leite da grávidas, não existem provas suficientes que confirmem a sua eficácia. Dado isto, não recomendamos o seu consumo enquanto grávida e tactante.
+      title: Cardo Mariano (Silybum Marianum)
+    b12:
+      title: Vitamina B 12
+      beneficios:
+        title: 'Beneficios da B12:'
+      contraindicaciones:
+        title: 'Contra indicações da B12:'
+        description: Não há evidências que a vitamina B 12 tenha consequências prejudiciais
+          para o organismo.
+      data: O organismo humano absorve uma quantidade diária de vitamina B12, ou cobalamina,
+        para se manter saudável. Além de muitas outras causas, o uso de álcool consome
+        uma grande quantidade de vitamina B12 e tem impacto na mucosa gástrica e no
+        fígado, o que se reflete na função do Figado, piorando a absorção da vitamina
+        no intestino.
+  cart:
+    title: O teu carrinho
+    product: Produto
+    quantity: Quantidade
+    price: Preço
+    total: Total
+    checkout: Pagar
+    coupon: Cupon
+    stock: Em stock
+  about:
+    partners:
+      title: Parceiros comerciais
+      text: Se quiseres colaborar conosco, não hesites em nos contactar
+  not_found:
+    title: Não encontrado
+    message: Recurso não encontrado
+  cookies:
+    title: Política de Cookies
+    message: Esta web utiliza cookies para te oferecer uma melhor experiência e serviço
+    got_it: Aceite
+    learn_more: Mais informação
+    detail:
+      navitagion:
+        title: Relativamente às Cookies durante a navegação
+      navigation:
+        text: 'Uma cookie é uma pequena informação enviada por um site web e armazenada
+          no navegador do usuário, de forma que a que o site possa consultar a atividade
+          de usuário. As suas principais funções são:'
+        bullet: Conseguir informação sobre os hábitos de navegação do usuário.
+      thirdparty:
+        title: Cookies de terceros dioniberica.com
+        kind:
+          subtitle: Tipo de Cookie
+        firm:
+          subtitle: Empresa
+        purpose:
+          subtitle: Finalidade
+        info:
+          subtitle: Informação
+          text: Navegação de formulários que permitem saber qual é a consulta e como
+            navega. http://www.google.es/intl/es/analytics/privacyoverview.html
+        manageCookies:
+          subtitle: Gerir Cookies
+          boldtext: Podes permitir, bloquear ou eliminar as cookies instaladas no
+            teu computador mediante a configuração das opções do navegador instaladas
+            no teu computador.
+          text: 'Se não estás certo sobre o tipo e versão do navegador do teu computador,
+            podes aceder na internet:'
+          bullet_1: 'Para Windows: clica em "Ajuda" na parte superior da janela do
+            teu navegador e seleciona a opção "Acerca de".'
+          bullet_2: 'Para Mac: com a janela do navegador aberta, clica no menu da
+            Apple e seleciona a opção "Acerca de…".'
+      howToManage:
+        win:
+          title: Como gerir as cookies no Windows
+          chrome:
+            pasos: |-
+              Carrega no menú de Chrome Chrome situado na barra de ferramentas do navegador.
+              Seleciona "Configuração".
+              Carrega em "Mostrar opcões avançadas"…
+              Na secção "Privacidade", carrega no botão "Configuração de conteúdo"….
+              Na secção "Cookies", podes configurar as opções que são indicam: Eliminar cookies, bloquear ou permitir as cookies de forma predeterminada, incluir excepciones de cookies de dominios o sitios web específicos.
+              Para mayor detalle consulta la ayuda de Google Chrome.
+          ie:
+            pasos: demo
+          firefox:
+            pasos: demo
+          safari:
+            pasos: demo
+          opera:
+            pasos: demo
+        chrome:
+          subtitle: Google Chrome
+        ie:
+          subtitle: Microsoft Internet Explorer 7.0 y 8.0
+        firefox:
+          subtitle: Mozilla Firefox
+        safari:
+          subtitle: Safari
+        opera:
+          subtitle: Opera
+        mac:
+          title: demo
+          chrome:
+            pasos: demo
+          ie:
+            pasos: demo
+          firefox:
+            pasos: demo
+          safari:
+            pasos: demo
+          opera:
+            pasos: demo
+  thankyou:
+    thanks: "{NAME}, obrigado pela sua compra."
+    looking_forward: Esperamos ver-te em breve!
+    order_number: 'Pedido num: {ORDER}'
+    amount: 'Total: {MONEY}'
+    send_to: 'Enviar a: {ADRESS}'
+    continue_shopping: Continuar compra
+  failure:
+    error: Ouve um erro com a sua compra
+    contact: Por favor, contacta conosco

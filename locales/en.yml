@@ -1,0 +1,254 @@
+# Do not edit this generated file
+---
+en:
+  home:
+    favicon:
+      title: DION | Hangover preventer
+    main-title: Prevent your Hangover with Dion
+    main-subtitle: 'DION: The new food supplement based on vitamins and plant extracts.'
+    main:
+      url: imagenes/Concierto.jpg
+      how-it-works:
+        link: HOW DOES IT WORK?
+      buy:
+        link: BUY
+    why:
+      title: Now, you can party a lot without worrying about hangover symptoms.
+      text: Take one Dion while drinking alcohol, and give to your body, the required
+        energy to assimilate faster the alcohol consumed, and you will be able to
+        wake up without the painful hangover symptoms.
+    steps:
+      title: Instructions
+      subtitle: Follow this 3 simple steps and wake up hangover free.
+    suggestions:
+      title: SUGGESTIONS
+      more: More information
+    opinion:
+      title: Opinios and feedback
+    composition:
+      title: Composition
+      text: Natural food supplement composed by vitamins and plant extracts.
+      product:
+        photo: "/producto/PT/blister-design.jpg"
+      price:
+        value: 5€
+        VAT: "(VAT not included)"
+      more:
+        info: More info
+    add-to-cart:
+      text: ADD TO CART
+  meta:
+    description: Take a Dion and be able to party and to avoid hangover in the next
+      day.
+    keywords: hangover, hungover, anti hangover, avoid, prevent, headache, alcohol,
+      solution, remedy, party, disco, discotheque, night club, beer, wine, weekend,
+      friends, wedding, hen party, hen do, bachelorette party, stag party, stag do,
+      bachelor party, leaving party, going-away party, trip, travel, erasmus, student,
+      student residence, pharmacy, chemist, health, natural, cardo mariano, vitamin,
+      B12 vitamin, B12, B 12,  multivitaminic complex, tablet, pill, Celine Dion,
+      music, dj, kit anti hangover, economic, cheap, sex, porn, pron, drug, ibuprofeno,
+      aspirina, star wars, water, orange, orange juice, B1, B2, B6, acetilcisteina
+  menu:
+    home:
+      title: Home
+    faqs:
+      title: FAQ
+    contact:
+      title: Contact
+    product:
+      title: Product
+    about:
+      title: About
+  generic:
+    language: Language
+  locales:
+    en: English
+    es: Spanish
+    ca: Català
+    pt: Portuguese
+  banner:
+    text: 'Launch promotion: Shipping costs included'
+    button:
+      buy: Buy
+  contact:
+    title: Contacts
+    subtitle: If you have any question, opinion or just want to say hi, please complete
+      the next form.
+    field:
+      name: Name
+      email: Email
+      title: Issue
+      msg: Mensage
+    button:
+      send: Send
+    footer:
+      address: Adress
+      mail: Contacts
+      social: Social
+    socialmedia:
+      facebook: https://www.facebook.com/dionport/
+      instagram: https://www.instagram.com/dion_pt
+    map:
+      longitude: '38.692116'
+      latitude: "-9.3218501"
+    message_placeholder: Your message
+    subject_placeholder: Your subject
+    telephone_placeholder: Enter your telephone
+    email_placeholder: Enter your email
+    name_placeholder: Enter your name
+    text: Tell us where you would like to find Dion that we will take care of the
+      rest
+  contact-sent:
+    title: Contact
+    message: If you don't do it now, when?
+    sent_title: Your message was sent successfully
+    sent_description: Thank you for contacting us!
+  footer:
+    contact:
+      title: Contact
+    follow:
+      title: Follow us
+    company:
+      name: Dion Iberica LDA
+    email: info-pt@dioniberica.com
+    address: Alameda Conde Oeiras - Torre I R/C Esq. 2780-139 Oeiras
+    telephone: "(+351) 91 261 38 66"
+  faqs:
+    title: Faqs
+    section1:
+      title: Frequently Asked Questions
+      text: |-
+        Criámos uma lista de perguntas mais frequentes para que tenhas toda a informação necessária a qualquer momento. Caso tenhas alguma dúvida, entra em contacto conosco.
+        We have created a list of frequently asked questions in order for you to have all the info required ate any time. In case any doubts, get in touched with us.
+    section2:
+      title: Not so Frequently Asked Questions
+      text: We have created a second list, of non frequently asked questions, that
+        we also believe to deserve an answer.
+  product:
+    title: 10 tablet blister
+    price:
+      title: Price
+      data: 5 € (+1.15 € VAT)
+    cad:
+      title: 'Validity:'
+      data: 3 years
+    shipping:
+      title: 'Shipping method:'
+      data: Ordinary post with reinforced envelope to stand behind product integrity.
+    composition:
+      title: Composition
+    cm:
+      beneficios:
+        title: 'Cardo Mariano Benefits:'
+      data: |-
+        Silybum Marianum is a plant that grows freely in nature and that the human being has used since ancient times, due to its many medicinal properties.
+        The first traces written on the healing properties of Silybum Marianum date back to the time of the Greeks, when the doctor Dioscorides used it to treat his patients  who were bitten by snakes or when Pliny used as a remedy for the bile. Later in the middle ages, Silybum Marianum is described as a potent antidote for detoxifying the liver.
+        Among these properties, it is notable that it is an efficient liver protector, protecting against toxins and stimulating the growth and regeneration of new liver tissues.
+      contraindicaciones:
+        title: 'Cardo Mariano Contraindication:'
+        description: |-
+          Cardo Mariano has no toxic effects on the human being.
+          Traditionally, Cardo Mariano has been used to increment gestants milk production although there are not enough evidences confirming it's efficacy. So we do not recommend consumption during pregnancy and lactation.
+      title: Silybum Marianum
+    b12:
+      title: B12 Vitamin
+      beneficios:
+        title: 'B12 Benefits:'
+      contraindicaciones:
+        title: 'B12 Contraindications:'
+        description: There are no evidences that B12 vitamin has harmful consequences
+          for the organism
+      data: Human being naturally absorbs a dayly amount of B12 Vitamin to keep healthy.
+        Alcohol consumes a large cuantity of B12 Vitamin impacting on the gastric
+        mucous and the liver, wich is reflected on a liver function worsening and
+        on a lower vitamin absortion at gut.
+  cart:
+    title: Your cart
+    product: Product
+    quantity: Quantity
+    price: Price
+    total: Total
+    checkout: Pay
+    coupon: Discount
+    stock: Stock
+  about:
+    partners:
+      title: Partners
+      text: If you want to colaborate with us, please get in touched.
+  not_found:
+    title: Not found
+    message: Resource not found
+  cookies:
+    title: Cookie policy
+    message: This website uses cookies to ensure you get the best experience on our
+      website
+    got_it: Got it!
+    learn_more: More information
+    detail:
+      navitagion:
+        title: demo
+      navigation:
+        text: demo
+        bullet: demo
+      thirdparty:
+        title: demo
+        kind:
+          subtitle: demo
+        firm:
+          subtitle: demo
+        purpose:
+          subtitle: demo
+        info:
+          subtitle: demo
+          text: demo
+        manageCookies:
+          subtitle: demo
+          boldtext: demo
+          text: demo
+          bullet_1: demo
+          bullet_2: demo
+      howToManage:
+        win:
+          title: demo
+          chrome:
+            pasos: demo
+          ie:
+            pasos: demo
+          firefox:
+            pasos: demo
+          safari:
+            pasos: demo
+          opera:
+            pasos: demo
+        chrome:
+          subtitle: Google Chrome
+        ie:
+          subtitle: Microsoft Internet Explorer 7.0 y 8.0
+        firefox:
+          subtitle: Mozilla Firefox
+        safari:
+          subtitle: Safari
+        opera:
+          subtitle: Opera
+        mac:
+          title: demo
+          chrome:
+            pasos: demo
+          ie:
+            pasos: demo
+          firefox:
+            pasos: demo
+          safari:
+            pasos: demo
+          opera:
+            pasos: demo
+  thankyou:
+    thanks: "{NAME}, thanks for trusting us."
+    looking_forward: "¡We are looking forward to see you soon!"
+    order_number: 'Order num: {ORDER}'
+    amount: 'Total: {MONEY}'
+    send_to: 'Send to: {ADRESS}'
+    continue_shopping: Keep buying
+  failure:
+    error: We're sorry, there was an error with your order.
+    contact: Please, contact us.
