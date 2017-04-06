@@ -25,5 +25,9 @@
     "serve-favicon": "~2.2.0",
     "stripe": "^4.16.0",
     "yamljs": "^0.2.9"
-  }
+  },
+  "main": "index.js",
+  "repository": "git@github.com:DionIberica/dioniberica.website.dynamic.git",
+  "author": "Ferran Basora <fcsonline@gmail.com>",
+  "license": "MIT"
 }
