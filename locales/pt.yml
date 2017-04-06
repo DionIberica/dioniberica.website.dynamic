@@ -58,7 +58,7 @@ pt:
     faqs:
       title: FAQ
     contact:
-      title: Contacta
+      title: Contactos
     product:
       title: Produto
     about:
@@ -269,3 +269,34 @@ pt:
   failure:
     error: Ouve um erro com a sua compra
     contact: Por favor, contacta conosco
+  mail:
+    title: Obrigado por confiares em nós
+    subtitle: Recebemos o teu pedido - obrigado!
+    text: Os artigos que pediste serão enviados o quanto antes.
+    purchaseNumber:
+      title: Pedido numero
+    data:
+      title: Realizado em
+    purchaseData:
+      text: Dados de faturação
+    shippingData:
+      text: Dados de envio
+    purchaseResume:
+      text: Resumo do pedido
+    volume:
+      text: Quantidade
+    price:
+      text: Preço
+    detailedCost:
+      subtotal: Subtotal
+      transport: Custo de envio
+      discount: Cupão de desconto
+      tax: Imposto
+      total: Total
+    footer:
+      help: Necessitas de ajuda? Entra em contacto conosco e faremos os possiveis
+        para que aproveites a tua experiência conosco.
+      call: 'Liga-nos: +351 91 261 38 66'
+      email: 'Envia-nos um email: info.pt@dioniberica.com'
+      provider: Este email foi enviado por Dion Portugal
+      url: http://www.dioniberica.pt

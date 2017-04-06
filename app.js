@@ -8,6 +8,9 @@ var logger = require('morgan');
 var bodyParser = require('body-parser');
 var Raven = require('raven');
 var i18n = require('i18n-2');
+var yaml = require('js-yaml');
+var fs = require('fs');
+var locales= {};
 
 // Raven.config(process.env.RAVEN_DSN || 'lol').install();
 
@@ -20,17 +23,6 @@ var app = express();
 
 app.use(Raven.requestHandler());
 app.use(Raven.errorHandler());
-
-i18n.expressBind(app, {
-  locales: ['ca', 'es', 'pt', 'en'],
-  defaultLocale: 'es',
-  extension: '.yml',
-  parse: (data, foo) => {
-    var parsed = require('js-yaml').safeLoad(data);
-    var locale = Object.keys(parsed)[0];
-    return parsed[locale];
-  }
-});
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -51,6 +43,18 @@ app.use(session({
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
+
+// Loading locales
+fs.readdirSync('./locales').forEach((file) => {
+  var locale = yaml.safeLoad(fs.readFileSync('./locales/' + file, 'utf8'));
+
+  Object.assign(locales, locale);
+});
+
+i18n.expressBind(app, {
+  locales: locales,
+  defaultLocale: 'es',
+});
 
 app.use('/contact', contact);
 app.use('/ping', ping);

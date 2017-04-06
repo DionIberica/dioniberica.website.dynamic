@@ -3,77 +3,108 @@
 doctype html
 html
   head
-    title= 'Hola'
-  body(style='font-family: sans-serif;')
-    div(style="padding: 20px; text-align: center;")
-      img(src="http://www.dioniberica.com/assets/images/logos/logo.png", width="100")
+    title= 'Detalle de pedido'
+  body
+    style(type='text/css').
+      body {
+        font-family: sans-serif;
+        font-size: 14px;
+        padding: 0;
+        margin: 0;
+      }
+      .background {
+        padding: 20px;
+        text-align: center;
+        background: #f0f0f0;
+      }
+      .detail {
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0px 0px 5px #ddd;
+        padding: 30px;
+        background: #fff;
+      }
+      table.main {
+        width: 100%;
+      }
+      table.total {
+        width: 250px;
+      }
+      img.product {
+        width: 180px;
+      }
+    div.background
+      img(src="http://next.dioniberica.com/assets/images/logo-white.png", width="100")
 
       h1 #{charge.description}
-      p Recién hemos recibido tu pedido - ¡muchas gracias!
+      p #{i18n.__('mail.title')}
+      p #{i18n.__('mail.subtitle')}
+      p #{i18n.__('mail.text')}
 
-      p Los ítems que pediste serán enviados tan pronto sea posible. ¡Esperamos verte nuevamente!
+      .detail
+        table.main
+          tr
+            td #{i18n.__('mail.purchaseNumber.title')} #{charge.metadata.order_id}
+            td #{i18n.__('mail.data.title')} Mar 14, 2017
+          tr
+            td(style= 'vertical-align: top')
+              h2 #{i18n.__('mail.purchaseData.text')}
+              p Pagado con #{source.brand}
+              p #{source.name}
+              p #{source.address_line1} #{source.address_line2 || ''}
+              p #{source.address_city}, #{source.address_zip}
+              p #{source.address_country}
+            td(style= 'vertical-align: top')
+              h2 #{i18n.__('mail.shippingData.text')}
+              p Envío gratuito
+              p #{source.name}
+              p #{source.address_line1} #{source.address_line2 || ''}
+              p #{source.address_city}, #{source.address_zip}
+              p #{source.address_country}
+              p #{email}
+          tr
+            td(colspan='2')
+              h2 #{i18n.__('mail.purchaseResume.text')}
+          tr
+            td(colspan='2')
+              table(style='width: 100%')
+                tr
+                  th Producto
+                  th #{i18n.__('mail.volume.text')}
+                  th #{i18n.__('mail.price.text')}
+                tr
+                  td
+                    p Blister 10 comprimidos
+                    img.product(src="http://next.dioniberica.com/assets/images/producto/ES/Blister_abierto.jpg")
+                  td
+                    p #{cart.items}
+                  td
+                    p #{(cart.price / 100).toFixed(2)} €
+                tr
+                  td(colspan='2')
+                  td(align='right')
+                    table.total
+                      tr
+                        td #{i18n.__('mail.detailedCost.subtotal')}
+                        td(align='right') #{(cart.subtotal / 100).toFixed(2)} €
+                      tr
+                        td #{i18n.__('mail.detailedCost.discount')}
+                        td(align='right') -0.00 €
+                      tr
+                        td #{i18n.__('mail.detailedCost.transport')}
+                        td(align='right') 0.00 €
+                      tr
+                        td #{i18n.__('mail.detailedCost.tax')}
+                        td(align='right') #{(cart.taxes / 100).toFixed(2)} €
+                      tr
+                        td #{i18n.__('mail.detailedCost.total')}
+                        td(align='right')
+                          strong #{(cart.amount / 100).toFixed(2)} €
 
-      table(border= '1', style='width: 100%')
-        tr
-          td Pedido num. #{charge.metadata.order_id}
-          td Realizado en Mar 14, 2017
-        tr
-          td(style= 'vertical-align: top')
-            h2 DATOS DE FACTURACIÓN
-            p Pagado con #{source.brand}
-            p #{source.name}
-            p #{source.address_line1} #{source.address_line2 || ''}
-            p #{source.address_city}, #{source.address_zip}
-            p #{source.address_country}
-          td(style= 'vertical-align: top')
-            h2 DATOS DEL ENVÍO
-            p Envío gratuito
-            p #{source.name}
-            p #{source.address_line1} #{source.address_line2 || ''}
-            p #{source.address_city}, #{source.address_zip}
-            p #{source.address_country}
-            p #{email}
-        tr
-          td(colspan='2')
-            h2 Resumen del pedido
-        tr
-          td(colspan='2')
-            table(style='width: 100%')
-              tr
-                td
-                  p Blister 10 comprimidos
-                  p SKU: 1000
-                  p Precio: €5.00
-                td
-                  p Cant.: 1
-                td
-                  p €5.00
-              tr
-                td(colspan='2')
-                td
-                  table
-                    tr
-                      td Subtotal
-                      td 5
-                    tr
-                      td Envio
-                      td 5
-                    tr
-                      td Cupon
-                      td -4.95
-                    tr
-                      td Impuesto
-                      td 0.01
-                    tr
-                      td Total
-                      td
-                        strong Total #{(charge.amount / 100).toFixed(2)} €
-
-      p ¿Necesitas asistencia? Contáctanos.
-      p Haremos todo lo posible para asegurarnos que disfrutes tu experiencia con nosotros.
-      p Llámanos: 34627179740
-      p Escríbenos un email: info@dioniberica.com
-      p Este email fue enviado por Dion Resakapsulus Spain SL
+      p #{i18n.__('mail.footer.help')}
+      p #{i18n.__('mail.footer.call')}
+      p #{i18n.__('mail.footer.email')}
+      p #{i18n.__('mail.footer.provider')}
 
       a(href='https://www.dioniberica.com/') https://www.dioniberica.com
       pre(style= 'text-align: initial')= JSON.stringify(charge, null, 4)

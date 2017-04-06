@@ -312,3 +312,34 @@ es:
   failure:
     error: Lamentamos comunicarle que ha ocurrido un error con su compra
     contact: Por favor, póngase en contacto con nosotros
+  mail:
+    title: Gracias por confiar en Dion
+    subtitle: Recién hemos recibido tu pedido - ¡muchas gracias!
+    text: Los ítems que pediste serán enviados tan pronto sea posible.
+    purchaseNumber:
+      title: Pedido número
+    data:
+      title: Realizado en
+    purchaseData:
+      text: Datos de facturación
+    shippingData:
+      text: Datos del envío
+    purchaseResume:
+      text: Resumen del pedido
+    volume:
+      text: Cantidad
+    price:
+      text: Precio
+    detailedCost:
+      subtotal: Subtotal
+      transport: Coste del envío
+      discount: Cupón de descuento
+      tax: Impuesto
+      total: Total
+    footer:
+      help: "¿Necesitas asistencia? Contáctanos y haremos todo lo posible para asegurarnos
+        que disfrutes tu experiencia con nosotros."
+      call: 'Llámanos: 34627179740'
+      email: 'Escríbenos un email: info@dioniberica.com'
+      provider: Este email fue enviado por Dion Spain
+      url: http://www.dioniberica.com/

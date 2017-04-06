@@ -1,312 +1,303 @@
-{
-	"home": {
-		"favicon": {
-			"title": "DION | Anticípa't a la ressaca"
-		},
-		"main-title": "Anticipa't a la ressaca amb Dion",
-		"main-subtitle": "DION: El nou complement alimentós compost a base de vitamines i extractes de plantes naturals que t'ajuda a prevenir la ressaca.",
-		"main": {
-			"url": "imagenes/Concierto.jpg",
-			"how-it-works": {
-				"link": "COM FUNCIONA?"
-			},
-			"buy": {
-				"link": "COMPRAR"
-			}
-		},
-		"why": {
-			"title": "Ja pots gaudir els teus events sense preocuparte pels símptomes de la ressaca",
-			"text": "Prenent una cápsula de Dion durant el consum d'alcohol donarás al teu cos l'energía necessária per a processar l'alcohol a una major velocitat i aixecar-te sense patir els maleïts símptomes de la ressaca."
-		},
-		"steps": {
-			"title": "Instruccions d'ús",
-			"subtitle": "Segueix aquests 3 simples pasos per a oblidar-te de la resaca."
-		},
-		"suggestions": {
-			"title": "RECOMANACIONS",
-			"more": "Més informació"
-		},
-		"opinion": {
-			"title": "Opinions sobre Dion"
-		},
-		"composition": {
-			"title": "Composició",
-			"text": "Complement alimentos natural compost a base de vitamines i extractes de planta.",
-			"product": {
-				"photo": "/producto/ES/blister-design.jpg"
-			},
-			"price": {
-				"value": "5€",
-				"VAT": "(IVA no inclós)"
-			},
-			"more": {
-				"info": "Més informació"
-			}
-		},
-		"add-to-cart": {
-			"text": "AFEGIR A LA CISTELLA"
-		}
-	},
-	"meta": {
-		"description": "Prenent un Dion abans de sortir de festa podras gaudir dels teus events sense patir els efectes de la ressaca del dia següent.",
-		"keywords": "ressaca, antiressaca, evitar, previndre, curar, mal de cap, anticipar, alcohol, remeis per a la ressaca, remei, festa, party, copa, discoteca, cervesa, vi, finde, cap de setmana, amics, amigues, bodes, comiats de solter, comiats de soltera, viatge, viatges, bachellor, erasmus, residència d'estudiants, farmàcia, salut, sanitat, natural, cardo mariano, vitamina, vitamina B12, B12, B 12, complex multivitaminic, comprimits, pastilles, capsules, Celine Dion, música, dj, kit antiressaca, economic, sexe, porno, prono, droga, drogues, timo, fake, ibuprofeno, aspirina, ibu, ibuporfeno, hang over, hangover, star wars, agua, suc de taronja, B1, B2, B6, acetilcisteina"
-	},
-	"menu": {
-		"home": {
-			"title": "Inici"
-		},
-		"faqs": {
-			"title": "FAQ"
-		},
-		"contact": {
-			"title": "Contacte"
-		},
-		"product": {
-			"title": "Producte"
-		},
-		"about": {
-			"title": "Sobre nosaltres"
-		}
-	},
-	"generic": {
-		"language": "Idioma"
-	},
-	"locales": {
-		"en": "English",
-		"es": "Español",
-		"ca": "Català",
-		"pt": "Portuguese"
-	},
-	"banner": {
-		"text": "Promoció de llançament: Despeses d'enviament incloses",
-		"button": {
-			"buy": "Comprar"
-		}
-	},
-	"contact": {
-		"title": "Contacte",
-		"subtitle": "Si tens alguna pregunta, sugeriment o simplement vols enviar-nos salutacions pots fer-ho mitjançant aquest formulari de contacte.",
-		"field": {
-			"name": "Nom i Cognoms",
-			"email": "E-mail",
-			"title": "Assumpte",
-			"msg": "Missatge"
-		},
-		"button": {
-			"send": "Enviar"
-		},
-		"footer": {
-			"address": "Adreça",
-			"mail": "Dades de contacte",
-			"social": "Xarxes socials"
-		},
-		"socialmedia": {
-			"facebook": "https://www.facebook.com/dionIberica/",
-			"instagram": "https://www.instagram.com/dion_spain"
-		},
-		"map": {
-			"longitude": "41.4836682",
-			"latitude": "2.2704794"
-		},
-		"message_placeholder": "Missatge",
-		"subject_placeholder": "Assumpte",
-		"telephone_placeholder": "Introdueixi el seu telèfon",
-		"email_placeholder": "Introdueixi el seu correu electrònic",
-		"name_placeholder": "Introdueixi el seu nom",
-		"text": "Digue'ns on t'agradaria trobar Dion i nosaltres n'hi durem."
-	},
-	"contact-sent": {
-		"title": "Contacte",
-		"message": "Si no ho fa ara, quan?",
-		"sent_title": "El seu missatge s'ha enviat correctament",
-		"sent_description": "Gràcies per posar-se en contacte amb nosaltres!"
-	},
-	"footer": {
-		"contact": {
-			"title": "Contacte"
-		},
-		"follow": {
-			"title": "Segueix-nos"
-		},
-		"company": {
-			"name": "Dion Resakapsulus Spain S.L."
-		},
-		"email": "info@dioniberica.com",
-		"address": "C/ Riera de'n Font, 60A, 2-5, Tiana (Barcelona)",
-		"telephone": "(+34) 627.179.740"
-	},
-	"faqs": {
-		"title": "Faqs",
-		"section1": {
-			"title": "Preguntes freqüents",
-			"text": "Hem creat una llista amb les preguntes més freqüents per a que tingueu tota la informació necessaria en cualsevol moment. Si teniu preguntes adicionals no dubteu a contactar-nos."
-		},
-		"section2": {
-			"title": "Preguntes no tant freqüents",
-			"text": "Hem creat una altre llista amb preguntes menys freqüents peró que creiem que també mereixen una resposta."
-		}
-	},
-	"product": {
-		"title": "Blister de 10 comprimits Dion",
-		"price": {
-			"title": "Preu",
-			"data": "5 € (+0.50 € IVA)"
-		},
-		"cad": {
-			"title": "Caducitat:",
-			"data": "3 anys"
-		},
-		"shipping": {
-			"title": "Métode d'enviament:",
-			"data": "Sobre amb reforç intern de seguretat per a evitar desperfectes mitjançant correu ordinari."
-		},
-		"composition": {
-			"title": "Composició"
-		},
-		"cm": {
-			"beneficios": {
-				"title": "Beneficis del Cardo Mariano:"
-			},
-			"data": "Es una planta que creix lliurement a la natura i que l'esser humá utilitza des dels temps bíblics degut a les seves múltiples propietats medicinals.\nEls primers vestigis escrits sobre les propietats curatives del Cardo Mariano es remonten a la época dels Grecs, cuan el metge Dioscóridces l'empreva com a remei contra les mossegades de les serps i per Plinio qui l'administrava com a remei per a la bilis. Posteriorment, a l'edat mitjana es descriu el seu ús com a potent antídot per a desintoxicar el fetge.\nEntre les seves propietats destaca el fet de que sigui un potent protector hepátic, ja que protegeix de les toxines estimulant el creixement i la regeneració de nous teixits del fetge.",
-			"contraindicaciones": {
-				"title": "Contraindicacions del Cardo Mariano:",
-				"description": "No té efectes nocíus per a l'organisme humá.\nMalgrat que tradicionalment s'ha emprat pera augmentar la llet de les lactants, no existeixen proves suficients per a confirmar la seva eficácia, pel que no es recomana el seu ús durant l'embarás i la lactancia."
-			},
-			"title": "Cardo Mariano (Silybum Marianum)"
-		},
-		"b12": {
-			"title": "Vitamína B12",
-			"beneficios": {
-				"title": "Beneficis de la B12:"
-			},
-			"contraindicaciones": {
-				"title": "Contraindicacions de la B12:",
-				"description": "No s'ha demostrat que la vitamina B12 causi cap mena de mal."
-			},
-			"data": "La vitamina B12, o cobalamina, es una vitamina hidrosoluble que el cos humá absorveix diariament per a mantindre's saludable. L'ús d'alcohol consumeix una gran cuantitat d'aqeusta vitamina i impacta sobre la mucosa gástrica i sobre el fetge, el que es veu reflexat en un empitjorament en el seu procés d'absorció."
-		}
-	},
-	"cart": {
-		"title": "La teva cistella",
-		"product": "Producte",
-		"quantity": "Cuantitat",
-		"price": "Preu",
-		"total": "Total",
-		"checkout": "Pagar",
-		"coupon": "Cupó",
-		"stock": "En stock"
-	},
-	"about": {
-		"partners": {
-			"title": "Socis comercials",
-			"text": "Si vols colaborar amb nosaltres no dubtis en contactar amb nosaltres."
-		}
-	},
-	"not_found": {
-		"title": "No trobat",
-		"message": "Recurs no trobat"
-	},
-	"cookies": {
-		"title": "Política de Cookies",
-		"message": "Aquesta web utilitza cookies per oferir-te una millor experiència i servei",
-		"got_it": "Accepto",
-		"learn_more": "Més informació",
-		"detail": {
-			"navitagion": {
-				"title": "En relació a les Cookies durant la navegació"
-			},
-			"navigation": {
-				"text": "Una cookie (o galeta informàtica) és una petita informació enviada per un lloc web i emmagatzemada al navegador de l'usuari, de manera que el lloc web pot consultar l'activitat prèvia de l'usuari. Les seves principals funcions són:",
-				"bullet": "Conseguir informació sobre els hàbits de navegació de l'usuari, entre d'altres."
-			},
-			"thirdparty": {
-				"title": "Cookies de tercers dioniberica.com",
-				"kind": {
-					"subtitle": "Tipus de Cookie"
-				},
-				"firm": {
-					"subtitle": "Empresa"
-				},
-				"purpose": {
-					"subtitle": "Finalitat"
-				},
-				"info": {
-					"subtitle": "Informació",
-					"text": "Navegació anònima que permet saber què es consulta i com es navega.        http://www.google.es/intl/es/analytics/privacyoverview.html"
-				},
-				"manageCookies": {
-					"subtitle": "Gestionar cookies",
-					"boldtext": "Pots permetre, bloquejar o eliminar les cookies instal·lades al teu equip mitjançant la configuració de les opcions del navegador instal·lat al teu ordinador.",
-					"text": "Si no estàs segur de quin tipus i versió de navegador fas servir per accedir a internet:",
-					"bullet_1": "Per Windows: has de clicar a \"Ajuda\" a la part superior de la finestra del teu navegador i seleccionar l'opció \"Sobre el\".",
-					"bullet_2": "Per Mac: amb la finestra del navegador oberta, s'ha de clicar al menú d'Apple i seleccionar l'opció \"Sobre el...\"."
-				}
-			},
-			"howToManage": {
-				"win": {
-					"title": "Com gestionar les cookies a Windows",
-					"chrome": {
-						"pasos": "Fes clic al menú de Chrome situat a la barra d'eines del navegador.\nSelecciona \"Configuració\".\nFes clic a \"Mostrar opcions avançades...\"\nA la secció \"Privacitat\", fes clic al botó \"Configuració de contingut...\".\nA la secció \"Cookies\", pots configurar les opcions que s'indiquen a continuació: Eliminar cookies, bloquejar o permetre les cookies de forma predeterminada, incloure excepcions de cookies de dominos o llocs web específics.\nSi necessites més detalls pots consultar l'ajuda de Google Chrome."
-					},
-					"ie": {
-						"pasos": "demo"
-					},
-					"firefox": {
-						"pasos": "demo"
-					},
-					"safari": {
-						"pasos": "demo"
-					},
-					"opera": {
-						"pasos": "demo"
-					}
-				},
-				"chrome": {
-					"subtitle": "Google Chrome"
-				},
-				"ie": {
-					"subtitle": "Microsoft Internet Explorer 7.0 y 8.0"
-				},
-				"firefox": {
-					"subtitle": "Mozilla Firefox"
-				},
-				"safari": {
-					"subtitle": "Safari"
-				},
-				"opera": {
-					"subtitle": "Opera"
-				},
-				"mac": {
-					"title": "demo",
-					"chrome": {
-						"pasos": "demo"
-					},
-					"ie": {
-						"pasos": "demo"
-					},
-					"firefox": {
-						"pasos": "demo"
-					},
-					"safari": {
-						"pasos": "demo"
-					},
-					"opera": {
-						"pasos": "demo"
-					}
-				}
-			}
-		}
-	},
-	"thankyou": {
-		"thanks": "{NAME}, gràcies per confiar amb nosaltres",
-		"looking_forward": "¡Esperem tornar-te a veure aviat!",
-		"order_number": "Comanda num: {ORDER}",
-		"amount": "Total: {MONEY}",
-		"send_to": "Enviar a: {ADRESS}",
-		"continue_shopping": "Seguir comprant"
-	},
-	"failure": {
-		"error": "Lamentem comunicar-li que hi ha hagut un error amb la seva compra.",
-		"contact": "Si us plau, contacti amb nosaltres."
-	}
-}
+# Do not edit this generated file
+---
+ca:
+  home:
+    favicon:
+      title: DION | Anticípa't a la ressaca
+    main-title: Anticipa't a la ressaca amb Dion
+    main-subtitle: 'DION: El nou complement alimentós compost a base de vitamines
+      i extractes de plantes naturals que t''ajuda a prevenir la ressaca.'
+    main:
+      url: imagenes/Concierto.jpg
+      how-it-works:
+        link: COM FUNCIONA?
+      buy:
+        link: COMPRAR
+    why:
+      title: Ja pots gaudir els teus events sense preocuparte pels símptomes de la
+        ressaca
+      text: Prenent una cápsula de Dion durant el consum d'alcohol donarás al teu
+        cos l'energía necessária per a processar l'alcohol a una major velocitat i
+        aixecar-te sense patir els maleïts símptomes de la ressaca.
+    steps:
+      title: Instruccions d'ús
+      subtitle: Segueix aquests 3 simples pasos per a oblidar-te de la resaca.
+    suggestions:
+      title: RECOMANACIONS
+      more: Més informació
+    opinion:
+      title: Opinions sobre Dion
+    composition:
+      title: Composició
+      text: Complement alimentos natural compost a base de vitamines i extractes de
+        planta.
+      product:
+        photo: "/producto/ES/blister-design.jpg"
+      price:
+        value: 5€
+        VAT: "(IVA no inclós)"
+      more:
+        info: Més informació
+    add-to-cart:
+      text: AFEGIR A LA CISTELLA
+  meta:
+    description: Prenent un Dion abans de sortir de festa podras gaudir dels teus
+      events sense patir els efectes de la ressaca del dia següent.
+    keywords: ressaca, antiressaca, evitar, previndre, curar, mal de cap, anticipar,
+      alcohol, remeis per a la ressaca, remei, festa, party, copa, discoteca, cervesa,
+      vi, finde, cap de setmana, amics, amigues, bodes, comiats de solter, comiats
+      de soltera, viatge, viatges, bachellor, erasmus, residència d'estudiants, farmàcia,
+      salut, sanitat, natural, cardo mariano, vitamina, vitamina B12, B12, B 12, complex
+      multivitaminic, comprimits, pastilles, capsules, Celine Dion, música, dj, kit
+      antiressaca, economic, sexe, porno, prono, droga, drogues, timo, fake, ibuprofeno,
+      aspirina, ibu, ibuporfeno, hang over, hangover, star wars, agua, suc de taronja,
+      B1, B2, B6, acetilcisteina
+  menu:
+    home:
+      title: Inici
+    faqs:
+      title: FAQ
+    contact:
+      title: Contacte
+    product:
+      title: Producte
+    about:
+      title: Sobre nosaltres
+  generic:
+    language: Idioma
+  locales:
+    en: English
+    es: Español
+    ca: Català
+    pt: Portuguese
+  banner:
+    text: 'Promoció de llançament: Despeses d''enviament incloses'
+    button:
+      buy: Comprar
+  contact:
+    title: Contacte
+    subtitle: Si tens alguna pregunta, sugeriment o simplement vols enviar-nos salutacions
+      pots fer-ho mitjançant aquest formulari de contacte.
+    field:
+      name: Nom i Cognoms
+      email: E-mail
+      title: Assumpte
+      msg: Missatge
+    button:
+      send: Enviar
+    footer:
+      address: Adreça
+      mail: Dades de contacte
+      social: Xarxes socials
+    socialmedia:
+      facebook: https://www.facebook.com/dionIberica/
+      instagram: https://www.instagram.com/dion_spain
+    map:
+      longitude: '41.4836682'
+      latitude: '2.2704794'
+    message_placeholder: Missatge
+    subject_placeholder: Assumpte
+    telephone_placeholder: Introdueixi el seu telèfon
+    email_placeholder: Introdueixi el seu correu electrònic
+    name_placeholder: Introdueixi el seu nom
+    text: Digue'ns on t'agradaria trobar Dion i nosaltres n'hi durem.
+  contact-sent:
+    title: Contacte
+    message: Si no ho fa ara, quan?
+    sent_title: El seu missatge s'ha enviat correctament
+    sent_description: Gràcies per posar-se en contacte amb nosaltres!
+  footer:
+    contact:
+      title: Contacte
+    follow:
+      title: Segueix-nos
+    company:
+      name: Dion Resakapsulus Spain S.L.
+    email: info@dioniberica.com
+    address: C/ Riera de'n Font, 60A, 2-5, Tiana (Barcelona)
+    telephone: "(+34) 627.179.740"
+  faqs:
+    title: Faqs
+    section1:
+      title: Preguntes freqüents
+      text: Hem creat una llista amb les preguntes més freqüents per a que tingueu
+        tota la informació necessaria en cualsevol moment. Si teniu preguntes adicionals
+        no dubteu a contactar-nos.
+    section2:
+      title: Preguntes no tant freqüents
+      text: Hem creat una altre llista amb preguntes menys freqüents peró que creiem
+        que també mereixen una resposta.
+  product:
+    title: Blister de 10 comprimits Dion
+    price:
+      title: Preu
+      data: 5 € (+0.50 € IVA)
+    cad:
+      title: 'Caducitat:'
+      data: 3 anys
+    shipping:
+      title: 'Métode d''enviament:'
+      data: Sobre amb reforç intern de seguretat per a evitar desperfectes mitjançant
+        correu ordinari.
+    composition:
+      title: Composició
+    cm:
+      beneficios:
+        title: 'Beneficis del Cardo Mariano:'
+      data: |-
+        Es una planta que creix lliurement a la natura i que l'esser humá utilitza des dels temps bíblics degut a les seves múltiples propietats medicinals.
+        Els primers vestigis escrits sobre les propietats curatives del Cardo Mariano es remonten a la época dels Grecs, cuan el metge Dioscóridces l'empreva com a remei contra les mossegades de les serps i per Plinio qui l'administrava com a remei per a la bilis. Posteriorment, a l'edat mitjana es descriu el seu ús com a potent antídot per a desintoxicar el fetge.
+        Entre les seves propietats destaca el fet de que sigui un potent protector hepátic, ja que protegeix de les toxines estimulant el creixement i la regeneració de nous teixits del fetge.
+      contraindicaciones:
+        title: 'Contraindicacions del Cardo Mariano:'
+        description: |-
+          No té efectes nocíus per a l'organisme humá.
+          Malgrat que tradicionalment s'ha emprat pera augmentar la llet de les lactants, no existeixen proves suficients per a confirmar la seva eficácia, pel que no es recomana el seu ús durant l'embarás i la lactancia.
+      title: Cardo Mariano (Silybum Marianum)
+    b12:
+      title: Vitamína B12
+      beneficios:
+        title: 'Beneficis de la B12:'
+      contraindicaciones:
+        title: 'Contraindicacions de la B12:'
+        description: No s'ha demostrat que la vitamina B12 causi cap mena de mal.
+      data: La vitamina B12, o cobalamina, es una vitamina hidrosoluble que el cos
+        humá absorveix diariament per a mantindre's saludable. L'ús d'alcohol consumeix
+        una gran cuantitat d'aqeusta vitamina i impacta sobre la mucosa gástrica i
+        sobre el fetge, el que es veu reflexat en un empitjorament en el seu procés
+        d'absorció.
+  cart:
+    title: La teva cistella
+    product: Producte
+    quantity: Cuantitat
+    price: Preu
+    total: Total
+    checkout: Pagar
+    coupon: Cupó
+    stock: En stock
+  about:
+    partners:
+      title: Socis comercials
+      text: Si vols colaborar amb nosaltres no dubtis en contactar amb nosaltres.
+  not_found:
+    title: No trobat
+    message: Recurs no trobat
+  cookies:
+    title: Política de Cookies
+    message: Aquesta web utilitza cookies per oferir-te una millor experiència i servei
+    got_it: Accepto
+    learn_more: Més informació
+    detail:
+      navitagion:
+        title: En relació a les Cookies durant la navegació
+      navigation:
+        text: 'Una cookie (o galeta informàtica) és una petita informació enviada
+          per un lloc web i emmagatzemada al navegador de l''usuari, de manera que
+          el lloc web pot consultar l''activitat prèvia de l''usuari. Les seves principals
+          funcions són:'
+        bullet: Conseguir informació sobre els hàbits de navegació de l'usuari, entre
+          d'altres.
+      thirdparty:
+        title: Cookies de tercers dioniberica.com
+        kind:
+          subtitle: Tipus de Cookie
+        firm:
+          subtitle: Empresa
+        purpose:
+          subtitle: Finalitat
+        info:
+          subtitle: Informació
+          text: Navegació anònima que permet saber què es consulta i com es navega.        http://www.google.es/intl/es/analytics/privacyoverview.html
+        manageCookies:
+          subtitle: Gestionar cookies
+          boldtext: Pots permetre, bloquejar o eliminar les cookies instal·lades al
+            teu equip mitjançant la configuració de les opcions del navegador instal·lat
+            al teu ordinador.
+          text: 'Si no estàs segur de quin tipus i versió de navegador fas servir
+            per accedir a internet:'
+          bullet_1: 'Per Windows: has de clicar a "Ajuda" a la part superior de la
+            finestra del teu navegador i seleccionar l''opció "Sobre el".'
+          bullet_2: 'Per Mac: amb la finestra del navegador oberta, s''ha de clicar
+            al menú d''Apple i seleccionar l''opció "Sobre el...".'
+      howToManage:
+        win:
+          title: Com gestionar les cookies a Windows
+          chrome:
+            pasos: |-
+              Fes clic al menú de Chrome situat a la barra d'eines del navegador.
+              Selecciona "Configuració".
+              Fes clic a "Mostrar opcions avançades..."
+              A la secció "Privacitat", fes clic al botó "Configuració de contingut...".
+              A la secció "Cookies", pots configurar les opcions que s'indiquen a continuació: Eliminar cookies, bloquejar o permetre les cookies de forma predeterminada, incloure excepcions de cookies de dominos o llocs web específics.
+              Si necessites més detalls pots consultar l'ajuda de Google Chrome.
+          ie:
+            pasos: demo
+          firefox:
+            pasos: demo
+          safari:
+            pasos: demo
+          opera:
+            pasos: demo
+        chrome:
+          subtitle: Google Chrome
+        ie:
+          subtitle: Microsoft Internet Explorer 7.0 y 8.0
+        firefox:
+          subtitle: Mozilla Firefox
+        safari:
+          subtitle: Safari
+        opera:
+          subtitle: Opera
+        mac:
+          title: demo
+          chrome:
+            pasos: demo
+          ie:
+            pasos: demo
+          firefox:
+            pasos: demo
+          safari:
+            pasos: demo
+          opera:
+            pasos: demo
+  thankyou:
+    thanks: "{NAME}, gràcies per confiar amb nosaltres"
+    looking_forward: "¡Esperem tornar-te a veure aviat!"
+    order_number: 'Comanda num: {ORDER}'
+    amount: 'Total: {MONEY}'
+    send_to: 'Enviar a: {ADRESS}'
+    continue_shopping: Seguir comprant
+  failure:
+    error: Lamentem comunicar-li que hi ha hagut un error amb la seva compra.
+    contact: Si us plau, contacti amb nosaltres.
+  mail:
+    title: Grácies per confiar en Dion
+    subtitle: Acabem de rebre la teva comanda. Moltes grácies!
+    text: Els articles que has demanat serán enviats tant aviat com ens sigui posible.
+    purchaseNumber:
+      title: Número de comanda
+    data:
+      title: Realitzat el dia
+    purchaseData:
+      text: Dades de facturació
+    shippingData:
+      text: Dades per a l'enviament
+    purchaseResume:
+      text: Resum de la comanda
+    volume:
+      text: Cuantitat
+    price:
+      text: Preu
+    detailedCost:
+      subtotal: Subtotal
+      transport: Cost de l'enviament
+      discount: Cupó de descompte
+      tax: Impost
+      total: Total
+    footer:
+      help: Necesites asisténcia? Contacta amb nosaltres i farem tot el que poguem
+        per a garantir que gaudeixes de la teva experiencia amb nosaltres.
+      call: 'Truca''ns al telefon: (+34) 627.17.97.40.'
+      email: 'Escriu-nos al mail: info@dioniberica.com.'
+      provider: Aquest e-mail ha estat enviat per Dion Spain.
+      url: http://www.dioniberica.com/

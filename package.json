@@ -14,14 +14,16 @@
     "express": "^4.10.8",
     "express-session": "^1.15.1",
     "i18n-2": "^0.6.3",
-    "js-yaml": "^3.8.3",
     "jade": "~1.8.2",
+    "js-yaml": "^3.8.3",
+    "juice": "^4.0.2",
     "mailgun-js": "^0.6.8",
     "morgan": "^1.5.3",
     "raven": "^1.2.0",
     "redis": "^2.7.1",
     "request": "^2.81.0",
     "serve-favicon": "~2.2.0",
-    "stripe": "^4.16.0"
+    "stripe": "^4.16.0",
+    "yamljs": "^0.2.9"
   }
 }

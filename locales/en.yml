@@ -252,3 +252,33 @@ en:
   failure:
     error: We're sorry, there was an error with your order.
     contact: Please, contact us.
+  mail:
+    title: We appreciate your trust in Dion
+    subtitle: We have just received your purchase. Thank you!
+    text: Your articles will be sent as soon as posible.
+    purchaseNumber:
+      title: Purchase number
+    data:
+      title: 'On'
+    purchaseData:
+      text: Purchase data
+    shippingData:
+      text: Shipping data
+    purchaseResume:
+      text: Purchase resume
+    volume:
+      text: Quantity
+    price:
+      text: Price
+    detailedCost:
+      subtotal: Subtotal
+      transport: Shipment cost
+      discount: Discount cupon
+      tax: Tax
+      total: Total
+    footer:
+      help: Do you need any help? Please, contact with us and we will do our best.
+      call: 'Call us: (+351)'
+      email: 'Or send us an e-mail: info.pt@dioniberica.com'
+      provider: This e-mail was sent by Dion Portugal
+      url: http://www.dioniberica.com
