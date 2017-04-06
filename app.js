@@ -45,8 +45,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 // Loading locales
-fs.readdirSync('./locales').forEach((file) => {
-  var locale = yaml.safeLoad(fs.readFileSync('./locales/' + file, 'utf8'));
+fs.readdirSync(__dirname + '/locales').forEach((file) => {
+  var locale = yaml.safeLoad(fs.readFileSync(__dirname + '/locales/' + file, 'utf8'));
 
   Object.assign(locales, locale);
 });
