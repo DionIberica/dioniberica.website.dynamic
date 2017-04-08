@@ -305,7 +305,9 @@ es:
               A continuación, selecciona "Aceptar cookies".
               Dispones de tres opciones según tu preferencia: "Aceptar cookies", "Aceptar cookies sólo del sitio visitado" y "No aceptar cookies nunca".
   thankyou:
-    thanks: "{NAME}, gracias por comprar con nosotros."
+    old:
+      thanks: "{NAME}, gracias por comprar con nosotros."
+    thanks: Gracias por comprar con nosotros.
     looking_forward: "¡Esperamos verte de nuevo muy pronto!"
     order_number: 'Pedido num: {ORDER}'
     amount: 'Total: {MONEY}'

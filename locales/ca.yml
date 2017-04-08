@@ -263,7 +263,9 @@ ca:
           opera:
             pasos: demo
   thankyou:
-    thanks: "{NAME}, gràcies per confiar amb nosaltres"
+    old:
+      thanks: "{NAME}, gràcies per confiar amb nosaltres"
+    thanks: Gràcies per confiar amb nosaltres
     looking_forward: "¡Esperem tornar-te a veure aviat!"
     order_number: 'Comanda num: {ORDER}'
     amount: 'Total: {MONEY}'

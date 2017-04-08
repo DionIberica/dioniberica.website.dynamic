@@ -262,7 +262,9 @@ pt:
           opera:
             pasos: demo
   thankyou:
-    thanks: "{NAME}, obrigado pela sua compra."
+    old:
+      thanks: "{NAME}, obrigado pela sua compra."
+    thanks: Obrigado pela sua compra.
     looking_forward: Esperamos ver-te em breve!
     order_number: 'Pedido num: {ORDER}'
     amount: 'Total: {MONEY}'

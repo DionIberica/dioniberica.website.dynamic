@@ -245,7 +245,9 @@ en:
           opera:
             pasos: demo
   thankyou:
-    thanks: "{NAME}, thanks for trusting us."
+    old:
+      thanks: "{NAME}, thanks for trusting us."
+    thanks: Thanks for trusting us.
     looking_forward: "¡We are looking forward to see you soon!"
     order_number: 'Order num: {ORDER}'
     amount: 'Total: {MONEY}'
