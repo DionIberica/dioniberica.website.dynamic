@@ -88,6 +88,7 @@ router.post('/checkout', (req, res) => {
       email: email,
       charge: results.charge,
       cart: cart,
+      i18n: req.i18n
     });
   }).then((charge) => {
     res.redirect(success);
