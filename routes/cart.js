@@ -45,6 +45,7 @@ router.post('/checkout', (req, res) => {
   var token = req.body.stripeToken;
   var results = {};
 
+  req.i18n.setLocale(locale);
   req.cart.setEmail(email);
 
   stripe.customers.create({
