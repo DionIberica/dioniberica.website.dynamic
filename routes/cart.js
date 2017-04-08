@@ -85,6 +85,9 @@ router.post('/checkout', (req, res) => {
       email: email
     });
   }).then((order) => {
+    req.cart.setPreviousOrder(order);
+    req.cart.reset();
+
     return sendCheckoutEmail(req.app, {
       email: email,
       charge: results.charge,
