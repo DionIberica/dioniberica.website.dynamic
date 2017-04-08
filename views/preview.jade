@@ -11,11 +11,13 @@ html
         font-size: 14px;
         padding: 0;
         margin: 0;
+        background: #f8f8f8;
       }
       .background {
+        width: 700px;
         padding: 20px;
         text-align: center;
-        background: #f0f0f0;
+        margin: 0 auto;
       }
       .detail {
         border: 1px solid #ccc;
@@ -24,14 +26,29 @@ html
         padding: 30px;
         background: #fff;
       }
+
+      h1 {
+        font-size: 22px;
+      }
+
+      .footer {
+        padding: 10px 150px;
+      }
+
       table.main {
         width: 100%;
+      }
+      table.main td {
+        width: 33%;
+      }
+      table.cart td.items, table.cart td.price {
+        width: 50px;
       }
       table.total {
         width: 250px;
       }
       img.product {
-        width: 180px;
+        width: 150px;
       }
     div.background
       img(src="http://next.dioniberica.com/assets/images/logo-white.png", width="100")
@@ -67,7 +84,7 @@ html
               h2 #{i18n.__('mail.purchaseResume.text')}
           tr
             td(colspan='2')
-              table(style='width: 100%')
+              table.cart(style='width: 100%')
                 tr
                   th Producto
                   th #{i18n.__('mail.volume.text')}
@@ -75,10 +92,10 @@ html
                 tr
                   td
                     p Blister 10 comprimidos
-                    img.product(src="http://next.dioniberica.com/assets/images/producto/ES/Blister_abierto.jpg")
-                  td
+                    img.product(src="http://next.dioniberica.com/assets/images/producto/ES/blister-design.png")
+                  td.items
                     p #{cart.items}
-                  td
+                  td.price
                     p #{(cart.price / 100).toFixed(2)} €
                 tr
                   td(colspan='2')
@@ -101,10 +118,12 @@ html
                         td(align='right')
                           strong #{(cart.amount / 100).toFixed(2)} €
 
-      p #{i18n.__('mail.footer.help')}
-      p #{i18n.__('mail.footer.call')}
-      p #{i18n.__('mail.footer.email')}
-      p #{i18n.__('mail.footer.provider')}
+      .footer
+        p #{i18n.__('mail.footer.help')}
+        p #{i18n.__('mail.footer.call')}
+        p #{i18n.__('mail.footer.email')}
+        p #{i18n.__('mail.footer.provider')}
 
-      a(href='https://www.dioniberica.com/') https://www.dioniberica.com
+        a(href='https://www.dioniberica.com/') https://www.dioniberica.com
+
       pre(style= 'text-align: initial')= JSON.stringify(charge, null, 4)
