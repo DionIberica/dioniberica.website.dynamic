@@ -12,7 +12,7 @@ var yaml = require('js-yaml');
 var fs = require('fs');
 var locales= {};
 
-Raven.config(process.env.RAVEN_DSN || '').install();
+Raven.config(process.env.RAVEN_DSN).install();
 
 var contact = require('./routes/contact');
 var ping = require('./routes/ping');
@@ -22,7 +22,6 @@ var cart = require('./routes/cart');
 var app = express();
 
 app.use(Raven.requestHandler());
-app.use(Raven.errorHandler());
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -79,6 +78,7 @@ app.set('stripe', (locale) => {
 });
 
 // error handlers
+app.use(Raven.errorHandler());
 
 // development error handler
 // will print stacktrace
