@@ -4,6 +4,7 @@ en:
   home:
     favicon:
       title: DION | Hangover preventer
+    title: Prevent your Hangover with Dion
     main-title: Prevent your Hangover with Dion
     main-subtitle: 'DION: The new food supplement based on vitamins and plant extracts.'
     main:
@@ -91,6 +92,7 @@ en:
     map:
       longitude: '38.692116'
       latitude: "-9.3218501"
+      description: Dion Iberica LDA
     message_placeholder: Your message
     subject_placeholder: Your subject
     telephone_placeholder: Enter your telephone
@@ -252,7 +254,13 @@ en:
   failure:
     error: We're sorry, there was an error with your order.
     contact: Please, contact us.
+  checkout:
+    failure:
+      title: Your cart
+    success:
+      title: Your cart
   mail:
+    sender: info.pt@dioniberica.com
     title: We appreciate your trust in Dion
     subtitle: We have just received your purchase. Thank you!
     text: Your articles will be sent as soon as posible.
@@ -279,6 +287,6 @@ en:
     footer:
       help: Do you need any help? Please, contact with us and we will do our best.
       call: 'Call us: (+351)'
-      email: 'Or send us an e-mail: info.pt@dioniberica.com'
+      send: Or send us an e-mail
+      email: info.pt@dioniberica.com
       provider: This e-mail was sent by Dion Portugal
-      url: http://www.dioniberica.com

@@ -4,6 +4,7 @@ ca:
   home:
     favicon:
       title: DION | Anticípa't a la ressaca
+    title: Anticipa't a la ressaca amb Dion
     main-title: Anticipa't a la ressaca amb Dion
     main-subtitle: 'DION: El nou complement alimentós compost a base de vitamines
       i extractes de plantes naturals que t''ajuda a prevenir la ressaca.'
@@ -95,6 +96,7 @@ ca:
     map:
       longitude: '41.4836682'
       latitude: '2.2704794'
+      description: Dion Resakapsulus Spain S.L.
     message_placeholder: Missatge
     subject_placeholder: Assumpte
     telephone_placeholder: Introdueixi el seu telèfon
@@ -270,7 +272,13 @@ ca:
   failure:
     error: Lamentem comunicar-li que hi ha hagut un error amb la seva compra.
     contact: Si us plau, contacti amb nosaltres.
+  checkout:
+    failure:
+      title: La teva cistella
+    success:
+      title: La teva cistella
   mail:
+    sender: info@dioniberica.com
     title: Grácies per confiar en Dion
     subtitle: Acabem de rebre la teva comanda. Moltes grácies!
     text: Els articles que has demanat serán enviats tant aviat com ens sigui posible.
@@ -298,6 +306,6 @@ ca:
       help: Necesites asisténcia? Contacta amb nosaltres i farem tot el que poguem
         per a garantir que gaudeixes de la teva experiencia amb nosaltres.
       call: 'Truca''ns al telefon: (+34) 627.17.97.40.'
-      email: 'Escriu-nos al mail: info@dioniberica.com.'
+      send: Escriu-nos al mail
+      email: info@dioniberica.com
       provider: Aquest e-mail ha estat enviat per Dion Spain.
-      url: http://www.dioniberica.com/
