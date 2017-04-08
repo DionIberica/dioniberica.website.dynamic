@@ -11,6 +11,8 @@ var juice = require('juice');
 router.get('/preview', function(req, res) {
   req.i18n.setLocale('pt');
 
+  throw new Error('WAT');
+
   var stripe = req.app.get('stripe')('en');
 
   stripe.charges.retrieve("ch_1A3KbUHgbV9vBiClmu9ftgQW", function(err, charge) {
