@@ -1,17 +1,17 @@
 {
-  "es_ES": {
+  "es": {
     "price": 50,
     "tax": 0.1
   },
-  "ca_ES": {
+  "ca": {
     "price": 50,
     "tax": 0.1
   },
-  "pt_PT": {
+  "pt": {
     "price": 50,
     "tax": 0.25
   },
-  "en_GB": {
+  "en": {
     "price": 50,
     "tax": 0.25
   }
