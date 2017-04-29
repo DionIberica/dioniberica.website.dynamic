@@ -36,7 +36,7 @@ router.post('/coupon', (req, res, next) => {
 
 router.post('/checkout', (req, res) => {
   var cart = req.cart.toJSON();
-  var locale = req.body.locale;
+  var locale = req.body.locale.split('_')[0];
   var success = req.body.success;
   var failure = req.body.failure;
   var stripe = req.app.get('stripe')(locale);
