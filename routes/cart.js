@@ -5,7 +5,7 @@ var Cart = require('../lib/cart');
 var sendCheckoutEmail = require('../lib/emails/checkout');
 
 router.all('*', (req, res, next) => {
-  var locale = req.query.locale;
+  var locale = req.query.locale.split('_')[0];
 
   req.cart = new Cart(req.session, 1, 100, locale);
 
@@ -36,7 +36,7 @@ router.post('/coupon', (req, res, next) => {
 
 router.post('/checkout', (req, res) => {
   var cart = req.cart.toJSON();
-  var locale = req.body.locale.split('_')[0];
+  var locale = req.body.locale;
   var success = req.body.success;
   var failure = req.body.failure;
   var stripe = req.app.get('stripe')(locale);
