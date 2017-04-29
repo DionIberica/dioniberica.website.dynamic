@@ -98,7 +98,8 @@ router.post('/checkout', (req, res) => {
   }).then((charge) => {
     res.redirect(success);
   }).catch((reason) => {
-    console.log(reason);
+    Raven.captureException(reason);
+
     res.redirect(failure);
   });
 });
