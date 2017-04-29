@@ -5,7 +5,7 @@ var Cart = require('../lib/cart');
 var sendCheckoutEmail = require('../lib/emails/checkout');
 
 router.all('*', (req, res, next) => {
-  var locale = req.query.locale.split('_')[0];
+  var locale = req.query.locale;
 
   req.cart = new Cart(req.session, 1, 100, locale);
 
