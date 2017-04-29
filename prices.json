@@ -1,18 +1,18 @@
 {
   "es_ES": {
-    "price": 500,
+    "price": 50,
     "tax": 0.1
   },
   "ca_ES": {
-    "price": 500,
+    "price": 50,
     "tax": 0.1
   },
   "pt_PT": {
-    "price": 500,
+    "price": 50,
     "tax": 0.25
   },
   "en_GB": {
-    "price": 500,
+    "price": 50,
     "tax": 0.25
   }
 }
