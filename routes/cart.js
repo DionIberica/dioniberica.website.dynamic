@@ -50,26 +50,14 @@ router.post('/checkout', (req, res) => {
 
   stripe.customers.create({
     email: email
-  }).then(() => {
-    return  stripe.charges.create({
-      amount: req.cart.compute(),
-      currency: "eur",
-      description: "Dion Iberica",
-      metadata: {order_id: 6735},
-      source: token,
-    });
-  }).then((charge) => {
-    results.charge = charge;
-
-    var source = charge.source;
-
+  }).then((customer) => {
     return stripe.orders.create({
       currency: 'eur',
+      coupon: cart.coupon,
       items: [
         {
           type: 'sku',
           parent: 'sku_1',
-          amount: cart.price,
           quantity: cart.items,
         }
       ],
@@ -83,6 +71,20 @@ router.post('/checkout', (req, res) => {
         }
       },
       email: email
+    });
+  }).then((order) => {
+    //  shipping: {
+    //    name: source.name,
+    //    address: {
+    //      line1: source.address_line1,
+    //      city: source.address_city,
+    //      country: source.address_country,
+    //      postal_code: source.address_zip
+    //    }
+    //  },
+
+    return stripe.orders.pay(order.id, {
+      source: token
     });
   }).then((order) => {
     req.cart.setPreviousOrder(order);
