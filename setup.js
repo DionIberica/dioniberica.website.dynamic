@@ -1,4 +1,4 @@
-var key = process.env['STRIPE_EN'];
+var key = process.env['TEST_STRIPE'];
 var stripe = require('stripe')(key);
 /*
 
@@ -30,29 +30,41 @@ stripe.orders.create({
     {
       type: 'sku',
       parent: 'sku_1',
-      amount: 500,
       quantity: 1,
     }
   ],
-  shipping: {
-    name: 'James Thomas',
-    address: {
-      line1: '1234 Main Street',
-      city: 'San Francisco',
-      state: 'CA',
-      country: 'US',
-      postal_code: '94111'
-    }
-  },
-  email: 'james.thomas@example.com'
-});
-, function(err, order) {
+  // shipping: {
+  //   name: 'James Thomas',
+  //   address: {
+  //     line1: '1234 Main Street',
+  //     city: 'San Francisco',
+  //     state: 'CA',
+  //     country: 'US',
+  //     postal_code: '94111'
+  //   }
+  // },
+  // email: 'james.thomas@example.com'
+}, (err, order) => {
+    debugger
+
     if(err) {
       console.log(err);
       return;
     }
 
-    debugger
+    stripe.orders.update(order.id, {
+      items: [
+        {
+          type: 'sku',
+          parent: 'sku_1',
+          amount: 500,
+          quantity: 1,
+        }
+      ],
+    }, function(err, order) {
+      debugger
+      // asynchronously called
+    })
 
     console.log('Order completed');
 });
