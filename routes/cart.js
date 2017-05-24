@@ -52,7 +52,7 @@ router.post('/checkout', (req, res) => {
     email: email
   }).then(() => {
     return  stripe.charges.create({
-      amount: req.cart.compute(),
+      amount: (req.cart.compute() + req.cart.taxes()),
       currency: "eur",
       description: "Dion Iberica",
       metadata: {order_id: 6735},
