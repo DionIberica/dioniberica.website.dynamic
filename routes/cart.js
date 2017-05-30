@@ -1,13 +1,15 @@
-var express = require('express');
-var router = express.Router();
-var Raven = require('raven');
-var Cart = require('../lib/cart');
-var sendCheckoutEmail = require('../lib/emails/checkout');
+const express = require('express');
+const Raven = require('raven');
+const Cart = require('../lib/cart');
+const sendCheckoutEmail = require('../lib/emails/checkout');
+
+const router = express.Router();
 
 router.all('*', (req, res, next) => {
-  var locale = req.query.locale;
+  const locale = req.query.locale;
+  const stripe = req.app.get('stripe')(locale);
 
-  req.cart = new Cart(req.session, 1, 100, locale);
+  req.cart = new Cart(stripe, req.session, 1, 100, locale);
 
   next();
 });
@@ -35,33 +37,33 @@ router.post('/coupon', (req, res, next) => {
 });
 
 router.post('/checkout', (req, res) => {
-  var cart = req.cart.toJSON();
-  var locale = req.body.locale;
-  var success = req.body.success;
-  var failure = req.body.failure;
-  var stripe = req.app.get('stripe')(locale);
+  const cart = req.cart.toJSON();
+  const locale = req.body.locale;
+  const success = req.body.success;
+  const failure = req.body.failure;
+  const stripe = cart.stripe;
 
-  var email = req.body.stripeEmail;
-  var token = req.body.stripeToken;
-  var results = {};
+  const email = req.body.stripeEmail;
+  const token = req.body.stripeToken;
+  const results = {};
 
   req.i18n.setLocale(locale);
   req.cart.setEmail(email);
 
   stripe.customers.create({
-    email: email
+    email,
   }).then(() => {
-    return  stripe.charges.create({
+    return stripe.charges.create({
       amount: (req.cart.compute() + req.cart.taxes()),
-      currency: "eur",
-      description: "Dion Iberica",
-      metadata: {order_id: 6735},
+      currency: 'eur',
+      description: 'Dion Iberica',
+      metadata: { order_id: 6735 },
       source: token,
     });
   }).then((charge) => {
     results.charge = charge;
 
-    var source = charge.source;
+    const source = charge.source;
 
     return stripe.orders.create({
       currency: 'eur',
@@ -71,7 +73,7 @@ router.post('/checkout', (req, res) => {
           parent: 'sku_1',
           amount: cart.price,
           quantity: cart.items,
-        }
+        },
       ],
       shipping: {
         name: source.name,
@@ -79,10 +81,10 @@ router.post('/checkout', (req, res) => {
           line1: source.address_line1,
           city: source.address_city,
           country: source.address_country,
-          postal_code: source.address_zip
-        }
+          postal_code: source.address_zip,
+        },
       },
-      email: email
+      email,
     });
   }).then((order) => {
     req.cart.setPreviousOrder(order);
@@ -90,12 +92,12 @@ router.post('/checkout', (req, res) => {
     req.cart.save();
 
     return sendCheckoutEmail(req.app, {
-      email: email,
+      email,
+      cart,
       charge: results.charge,
-      cart: cart,
-      i18n: req.i18n
+      i18n: req.i18n,
     });
-  }).then((charge) => {
+  }).then((_charge) => {
     res.redirect(success);
   }).catch((reason) => {
     Raven.captureException(reason);
