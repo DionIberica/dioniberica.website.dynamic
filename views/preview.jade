@@ -297,12 +297,11 @@ html(xmlns='http://www.w3.org/1999/xhtml')
                   table(width='100%', cellpadding='0', cellspacing='0')
                     tr
                       td.content-block
-                        img(src="http://next.dioniberica.com/assets/images/logo-white.png", width="100")
+                        img(src="https://www.dioniberica.com/assets/images/logo-white.png", width="100")
 
                     tr
                       td.content-block
-                        h1 #{charge.description}
-                        p #{i18n.__('mail.title')}
+                        h1 #{i18n.__('mail.title')}
                         p #{i18n.__('mail.subtitle')}
                         p #{i18n.__('mail.text')}
                     tr
@@ -326,7 +325,7 @@ html(xmlns='http://www.w3.org/1999/xhtml')
                                 tr
                                   td
                                     p Blister 10 comprimidos
-                                    img(src="http://next.dioniberica.com/assets/images/producto/ES/blister-design.png", width="100")
+                                    img(src="https://www.dioniberica.com/assets/images/producto/ES/blister-design.png", width="100")
                                   td.items
                                     p #{cart.items}
                                   td.price
@@ -338,7 +337,7 @@ html(xmlns='http://www.w3.org/1999/xhtml')
                                 tr
                                   td
                                   td #{i18n.__('mail.detailedCost.discount')}
-                                  td(align='right') -0.00 €
+                                  td(align='right') #{(cart.discount / 100).toFixed(2)} €
                                 tr
                                   td
                                   td #{i18n.__('mail.detailedCost.transport')}
@@ -352,8 +351,12 @@ html(xmlns='http://www.w3.org/1999/xhtml')
                                   td #{i18n.__('mail.detailedCost.total')}
                                   td(align='right')
                                     strong #{(cart.amount / 100).toFixed(2)} €
+
             .footer
               table(width='100%')
+                tr
+                  td.aligncenter.content-block
+                    p(style='color: #fefefe') #{charge.description}
                 tr
                   td.aligncenter.content-block
                     p #{i18n.__('mail.footer.help')}
@@ -361,4 +364,4 @@ html(xmlns='http://www.w3.org/1999/xhtml')
                     p #{i18n.__('mail.footer.send')} #{i18n.__('mail.footer.email')}
                     p #{i18n.__('mail.footer.provider')}
 
-                    a(href='http://www.dioniberica.com/') http://www.dioniberica.com
+                    a(href='https://www.dioniberica.com/') https://www.dioniberica.com

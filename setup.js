@@ -1,4 +1,4 @@
-var key = process.env['STRIPE_EN'];
+var key = process.env['TEST_STRIPE'];
 var stripe = require('stripe')(key);
 /*
 
@@ -45,14 +45,11 @@ stripe.orders.create({
     }
   },
   email: 'james.thomas@example.com'
-});
-, function(err, order) {
+}, function(err, order) {
     if(err) {
       console.log(err);
       return;
     }
-
-    debugger
 
     console.log('Order completed');
 });
