@@ -11,7 +11,9 @@ router.all('*', (req, res, next) => {
 
   req.cart = new Cart(stripe, req.session, 1, 100, locale);
 
-  next();
+  req.cart.retrieve().then(() => {
+    next();
+  });
 });
 
 router.get('/', (req, res, next) => {
@@ -107,6 +109,7 @@ router.post('/checkout', (req, res) => {
 });
 
 router.all('*', (req, res) => {
+  debugger
   req.cart.save();
 
   res.json(req.cart.toJSON());
