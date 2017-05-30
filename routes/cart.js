@@ -21,15 +21,15 @@ router.get('/', (req, res, next) => {
 });
 
 router.post('/add', (req, res, next) => {
-  req.cart.add();
-
-  next();
+  req.cart.add().then(function () {
+    next();
+  });
 });
 
 router.post('/subtract', (req, res, next) => {
-  req.cart.subtract();
-
-  next();
+  req.cart.subtract().then(function () {
+    next();
+  })
 });
 
 router.post('/coupon', (req, res, next) => {
