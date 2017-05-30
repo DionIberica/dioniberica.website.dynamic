@@ -56,7 +56,7 @@ router.post('/checkout', (req, res) => {
   }).then((order) => {
     results.order = order;
 
-    return stripe.charges.retreive(order.charge);
+    return stripe.charges.retrieve(order.charge);
   }).then((charge) => {
     results.charge = charge;
 
