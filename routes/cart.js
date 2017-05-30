@@ -50,8 +50,12 @@ router.post('/checkout', (req, res) => {
   req.i18n.setLocale(req.cart.locale);
   req.cart.setEmail(email);
 
-  return stripe.orders.pay(req.cart.orderId, {
-    source: token,
+  return stripe.orders.update({
+    email,
+  }).then(() => {
+    return stripe.orders.pay(req.cart.orderId, {
+      source: token,
+    });
   }).then((order) => {
     const charge = order.source;
     const source = charge.source;
@@ -69,7 +73,6 @@ router.post('/checkout', (req, res) => {
           postal_code: source.address_zip,
         },
       },
-      email,
     });
   }).then((order) => {
     req.cart.setPreviousOrder(order);
