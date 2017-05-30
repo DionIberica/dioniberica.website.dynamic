@@ -54,13 +54,16 @@ router.post('/checkout', (req, res) => {
     source: token,
     email,
   }).then((order) => {
-    const charge = order.source;
+    results.order = order;
+
+    return stripe.charges.retreive(order.charge);
+  }).then((charge) => {
+    results.charge = charge;
+
+    const order = results.order;
     const source = charge.source;
 
-    results.order = order;
-    results.charge = order.charge;
-
-    return stripe.orders.update({
+    return stripe.orders.update(order.id, {
       shipping: {
         name: source.name,
         address: {

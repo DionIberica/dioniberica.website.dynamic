@@ -13,7 +13,8 @@ router.get('/preview', function(req, res) {
 
   var stripe = req.app.get('stripe')('en');
 
-  stripe.charges.retrieve("ch_1A3KbUHgbV9vBiClmu9ftgQW", function(err, charge) {
+  stripe.orders.retrieve("or_1APBy1HgbV9vBiCl68zAugSw", function(err, charge) {
+    debugger
     const data = {
       charge: charge,
       cart: {
