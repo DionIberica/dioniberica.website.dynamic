@@ -21,15 +21,15 @@ router.get('/', (req, res, next) => {
 });
 
 router.post('/add', (req, res, next) => {
-  req.cart.add().then(function () {
+  req.cart.add().then(() => {
     next();
   });
 });
 
 router.post('/subtract', (req, res, next) => {
-  req.cart.subtract().then(function () {
+  req.cart.subtract().then(() => {
     next();
-  })
+  });
 });
 
 router.post('/coupon', (req, res, next) => {
@@ -52,31 +52,16 @@ router.post('/checkout', (req, res) => {
   req.i18n.setLocale(locale);
   req.cart.setEmail(email);
 
-  stripe.customers.create({
-    email,
-  }).then(() => {
-    return stripe.charges.create({
-      amount: (req.cart.compute() + req.cart.taxes()),
-      currency: 'eur',
-      description: 'Dion Iberica',
-      metadata: { order_id: 6735 },
-      source: token,
-    });
-  }).then((charge) => {
-    results.charge = charge;
-
+  return stripe.orders.pay(cart.orderId, {
+    source: token,
+  }).then((order) => {
+    const charge = order.source;
     const source = charge.source;
 
-    return stripe.orders.create({
-      currency: 'eur',
-      items: [
-        {
-          type: 'sku',
-          parent: 'sku_1',
-          amount: cart.price,
-          quantity: cart.items,
-        },
-      ],
+    results.order = order;
+    results.charge = order.charge;
+
+    return stripe.orders.update({
       shipping: {
         name: source.name,
         address: {
@@ -99,7 +84,7 @@ router.post('/checkout', (req, res) => {
       charge: results.charge,
       i18n: req.i18n,
     });
-  }).then((_charge) => {
+  }).then(() => {
     res.redirect(success);
   }).catch((reason) => {
     Raven.captureException(reason);
