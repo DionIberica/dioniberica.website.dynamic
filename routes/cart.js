@@ -33,9 +33,9 @@ router.post('/subtract', (req, res, next) => {
 });
 
 router.post('/coupon', (req, res, next) => {
-  req.cart.setCoupon(req.body.coupon);
-
-  next();
+  req.cart.setCoupon(req.body.coupon).then(() => {
+    next();
+  });
 });
 
 router.post('/checkout', (req, res) => {
@@ -50,7 +50,7 @@ router.post('/checkout', (req, res) => {
   req.i18n.setLocale(req.cart.locale);
   req.cart.setEmail(email);
 
-  return stripe.orders.update({
+  return stripe.orders.update(req.cart.orderId, {
     email,
   }).then(() => {
     return stripe.orders.pay(req.cart.orderId, {
