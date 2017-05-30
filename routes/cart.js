@@ -50,12 +50,9 @@ router.post('/checkout', (req, res) => {
   req.i18n.setLocale(req.cart.locale);
   req.cart.setEmail(email);
 
-  return stripe.orders.update(req.cart.orderId, {
+  return stripe.orders.pay(req.cart.orderId, {
+    source: token,
     email,
-  }).then(() => {
-    return stripe.orders.pay(req.cart.orderId, {
-      source: token,
-    });
   }).then((order) => {
     const charge = order.source;
     const source = charge.source;
