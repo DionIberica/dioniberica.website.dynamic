@@ -32,6 +32,19 @@ router.post('/subtract', (req, res, next) => {
   });
 });
 
+router.get('/add', (req, res, next) => {
+  req.cart.add().then(() => {
+    next();
+  });
+});
+
+router.get('/subtract', (req, res, next) => {
+  req.cart.subtract().then(() => {
+    next();
+  });
+});
+
+
 router.post('/coupon', (req, res, next) => {
   req.cart.setCoupon(req.body.coupon).then(() => {
     next();
