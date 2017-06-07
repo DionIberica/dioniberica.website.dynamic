@@ -85,9 +85,11 @@ router.post('/checkout', (req, res) => {
       charge: results.charge,
       i18n: req.i18n,
     });
-  }).then(() => {
+  })
+  .then(() => {
     res.redirect(success);
-  }).catch((reason) => {
+  })
+  .catch((reason) => {
     Raven.captureException(reason);
 
     res.redirect(failure);
@@ -95,7 +97,6 @@ router.post('/checkout', (req, res) => {
 });
 
 router.all('*', (req, res) => {
-  debugger
   req.cart.save();
 
   res.json(req.cart.toJSON());
