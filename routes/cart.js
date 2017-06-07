@@ -34,6 +34,7 @@ router.post('/subtract', (req, res, next) => {
 
 router.get('/add', (req, res, next) => {
   req.cart.add().then(() => {
+    debugger;
     next();
   });
 });
