@@ -11,13 +11,13 @@ router.all('*', (req, res, next) => {
 
   req.cart = new Cart(stripe, req.session, 1, 100, locale);
 
-  req.cart.retrieve().then(() => {
-    next();
-  });
+  next();
 });
 
 router.get('/', (req, res, next) => {
-  next();
+  req.cart.retrieve().then(() => {
+    next();
+  });
 });
 
 router.post('/add', (req, res, next) => {
@@ -34,7 +34,6 @@ router.post('/subtract', (req, res, next) => {
 
 router.get('/add', (req, res, next) => {
   req.cart.add().then(() => {
-    debugger;
     next();
   });
 });
