@@ -51,7 +51,5 @@ stripe.orders.create({
       return;
     }
 
-    debugger
-
     console.log('Order completed');
 });
