@@ -38,12 +38,6 @@ router.post('/coupon', (req, res, next) => {
   });
 });
 
-router.get('/coupon', (req, res, next) => {
-  req.cart.setCoupon(req.query.coupon).then(() => {
-    next();
-  });
-});
-
 router.post('/checkout', (req, res) => {
   const success = req.body.success;
   const failure = req.body.failure;
