@@ -60,22 +60,7 @@ router.post('/checkout', (req, res) => {
   }).then((charge) => {
     results.charge = charge;
 
-    const order = results.order;
-    const source = charge.source;
-
-    return stripe.orders.update(order.id, {
-      shipping: {
-        name: source.name,
-        address: {
-          line1: source.address_line1,
-          city: source.address_city,
-          country: source.address_country,
-          postal_code: source.address_zip,
-        },
-      },
-    });
-  }).then((order) => {
-    req.cart.setPreviousOrder(order);
+    req.cart.setPreviousOrder(results.order);
     req.cart.reset();
     req.cart.save();
 
