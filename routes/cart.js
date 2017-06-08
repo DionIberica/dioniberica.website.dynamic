@@ -6,7 +6,7 @@ const sendCheckoutEmail = require('../lib/emails/checkout');
 const router = express.Router();
 
 router.all('*', (req, res, next) => {
-  const locale = req.query.locale || req.body.locale;
+  const locale = (req.query.locale || req.body.locale || req.session.locale).split('_')[0];
   const stripe = req.app.get('stripe')(locale);
 
   req.cart = new Cart(stripe, req.session, 1, 100, locale);
@@ -34,6 +34,12 @@ router.post('/subtract', (req, res, next) => {
 
 router.post('/coupon', (req, res, next) => {
   req.cart.setCoupon(req.body.coupon).then(() => {
+    next();
+  });
+});
+
+router.get('/coupon', (req, res, next) => {
+  req.cart.setCoupon(req.query.coupon).then(() => {
     next();
   });
 });
