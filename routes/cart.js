@@ -20,14 +20,8 @@ router.get('/', (req, res, next) => {
   });
 });
 
-router.post('/add', (req, res, next) => {
-  req.cart.add().then(() => {
-    next();
-  });
-});
-
-router.post('/subtract', (req, res, next) => {
-  req.cart.subtract().then(() => {
+router.post('/quantity', (req, res, next) => {
+  req.cart.setQuantity(req.body.quantity).then(() => {
     next();
   });
 });
