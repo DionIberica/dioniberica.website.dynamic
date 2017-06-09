@@ -301,8 +301,7 @@ html(xmlns='http://www.w3.org/1999/xhtml')
 
                     tr
                       td.content-block
-                        h1 #{charge.description}
-                        p #{i18n.__('mail.title')}
+                        h1 #{i18n.__('mail.title')}
                         p #{i18n.__('mail.subtitle')}
                         p #{i18n.__('mail.text')}
                     tr
@@ -352,8 +351,12 @@ html(xmlns='http://www.w3.org/1999/xhtml')
                                   td #{i18n.__('mail.detailedCost.total')}
                                   td(align='right')
                                     strong #{(cart.amount / 100).toFixed(2)} €
+
             .footer
               table(width='100%')
+                tr
+                  td.aligncenter.content-block
+                    p(style='color: #fefefe') #{charge.description}
                 tr
                   td.aligncenter.content-block
                     p #{i18n.__('mail.footer.help')}
