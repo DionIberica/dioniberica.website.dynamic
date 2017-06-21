@@ -32,7 +32,7 @@ en:
       product:
         photo: "/producto/PT/blister-design.jpg"
       price:
-        value: 5€
+        value: 5,65€
         VAT: "(VAT not included)"
       more:
         info: More info
@@ -56,6 +56,8 @@ en:
       title: FAQ
     contact:
       title: Contact
+    shops:
+      title: Where to find us
     product:
       title: Product
     about:
@@ -115,13 +117,16 @@ en:
     email: info-pt@dioniberica.com
     address: Alameda Conde Oeiras - Torre I R/C Esq. 2780-139 Oeiras
     telephone: "(+351) 91 261 38 66"
+    issim:
+      text: 'Pictures provided by:'
+      logo: "/logo_issim"
   faqs:
-    title: Faqs
+    title: FAQs
     section1:
       title: Frequently Asked Questions
-      text: |-
-        Criámos uma lista de perguntas mais frequentes para que tenhas toda a informação necessária a qualquer momento. Caso tenhas alguma dúvida, entra em contacto conosco.
-        We have created a list of frequently asked questions in order for you to have all the info required ate any time. In case any doubts, get in touched with us.
+      text: We have created a list of frequently asked questions in order for you
+        to have all the info required ate any time. In case any doubts, get in touched
+        with us.
     section2:
       title: Not so Frequently Asked Questions
       text: We have created a second list, of non frequently asked questions, that
@@ -130,7 +135,7 @@ en:
     title: 10 tablet blister
     price:
       title: Price
-      data: 5 € (+1.15 € VAT)
+      data: 6.95 € (VAT Included)
     cad:
       title: 'Validity:'
       data: 3 years
@@ -170,9 +175,13 @@ en:
     quantity: Quantity
     price: Price
     total: Total
-    checkout: Pay
-    coupon: Discount
+    tax: Taxes
+    discount: Discount
+    coupon:
+      label: Coupon
+      apply: Apply
     stock: Stock
+    checkout: Pay
   about:
     partners:
       title: Partners
@@ -186,69 +195,11 @@ en:
       website
     got_it: Got it!
     learn_more: More information
-    detail:
-      navitagion:
-        title: demo
-      navigation:
-        text: demo
-        bullet: demo
-      thirdparty:
-        title: demo
-        kind:
-          subtitle: demo
-        firm:
-          subtitle: demo
-        purpose:
-          subtitle: demo
-        info:
-          subtitle: demo
-          text: demo
-        manageCookies:
-          subtitle: demo
-          boldtext: demo
-          text: demo
-          bullet_1: demo
-          bullet_2: demo
-      howToManage:
-        win:
-          title: demo
-          chrome:
-            pasos: demo
-          ie:
-            pasos: demo
-          firefox:
-            pasos: demo
-          safari:
-            pasos: demo
-          opera:
-            pasos: demo
-        chrome:
-          subtitle: Google Chrome
-        ie:
-          subtitle: Microsoft Internet Explorer 7.0 y 8.0
-        firefox:
-          subtitle: Mozilla Firefox
-        safari:
-          subtitle: Safari
-        opera:
-          subtitle: Opera
-        mac:
-          title: demo
-          chrome:
-            pasos: demo
-          ie:
-            pasos: demo
-          firefox:
-            pasos: demo
-          safari:
-            pasos: demo
-          opera:
-            pasos: demo
   thankyou:
     old:
       thanks: "{NAME}, thanks for trusting us."
     thanks: Thanks for trusting us.
-    looking_forward: "¡We are looking forward to see you soon!"
+    looking_forward: We are looking forward to see you soon!
     order_number: 'Order num: {ORDER}'
     amount: 'Total: {MONEY}'
     send_to: 'Send to: {ADRESS}'
@@ -276,6 +227,8 @@ en:
       text: Shipping data
     purchaseResume:
       text: Purchase resume
+    product:
+      text: Product
     volume:
       text: Quantity
     price:
@@ -288,7 +241,24 @@ en:
       total: Total
     footer:
       help: Do you need any help? Please, contact with us and we will do our best.
-      call: 'Call us: (+351)'
+      call: 'Call us: (+351) 91 261 38 66'
       send: Or send us an e-mail
       email: info.pt@dioniberica.com
-      provider: This e-mail was sent by Dion Portugal
+      provider: This e-mail has been sent by Dion Portugal
+  shops:
+    title: Where to find us
+    subtitle: In the following map you can see all the points of sale of Dion. If
+      you do not have one at near you, order online and we will send it directly to
+      your home. If you want Dion to be in an establishment next to you, write to
+      us and we'll make it happen.
+    type:
+      pharmacy: Pharmacy
+      bar: Bar
+    week:
+      monday: Monday
+      tuesday: Tuesday
+      wednesday: Wednesday
+      thursday: Thursday
+      friday: Friday
+      saturday: Saturday
+      sunday: Sunday

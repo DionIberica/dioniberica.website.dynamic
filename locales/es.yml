@@ -60,6 +60,8 @@ es:
       title: FAQ
     contact:
       title: Contacto
+    shops:
+      title: Dónde encontrarnos
     product:
       title: Producto
     about:
@@ -78,7 +80,7 @@ es:
   contact:
     title: Contacto
     subtitle: Si tienes alguna pregunta, sugerencia o simplemente quieres mandarnos
-      un saludo puedes hacerlo mediante este formulário de contacto
+      un saludo puedes hacerlo mediante este formulario de contacto
     field:
       name: Nombre y apellidos
       email: E-mail
@@ -102,24 +104,27 @@ es:
     telephone_placeholder: Introduzca su teléfono
     email_placeholder: Introduzca su correo electrónico
     name_placeholder: Introduzca su nombre
-    text: Dinos dónde te gustaría encontar Dion y nosotros nos encargaremos de llevarlo
+    text: Dinos dónde te gustaría encontrar Dion y nosotros nos encargaremos de llevarlo
   contact-sent:
     title: Contacto
-    message: Si no lo hace ahora, ¿Cúando?
+    message: Si no lo hace ahora, ¿Cuándo?
     sent_title: Su mensaje se ha enviado correctamente
     sent_description: Gracias por ponerse en contacto con nosotros!
   footer:
     contact:
       title: Contacto
     follow:
-      title: Siguenos
+      title: Síguenos
     company:
       name: Dion Resakapsulus Spain S.L.
     email: info@dioniberica.com
     address: C/ Riera de'n Font, 60A, 2-5, Tiana (Barcelona)
     telephone: "(+34) 627.179.740"
+    issim:
+      text: 'Imágenes por cortesía del estudio de fotografía profesional:'
+      logo: "/logo_issim"
   faqs:
-    title: Faqs
+    title: FAQs
     section1:
       title: Preguntas frecuentes
       text: Hemos creado una lista con las preguntas más frecuentes para que podáis
@@ -133,14 +138,13 @@ es:
     title: Blister 10 comprimidos Dion
     price:
       title: Precio
-      data: 5 € (+0.50 € IVA)
+      data: 5,5 € (IVA incluido)
     cad:
       title: 'Periodo de caducidad:'
       data: 3 años
     shipping:
       title: 'Método de envío:'
-      data: Sobre con acolchamiento de seguridad para evitar desperfectos mediante
-        correo ordinario.
+      data: Correo ordinario con sobre acolchado.
     composition:
       title: Composición
     cm:
@@ -157,7 +161,7 @@ es:
           Aunque tradicionalmente se ha utilizado para aumentar la leche de las lactantes, no existen pruebas suficientes para confirmar su eficacia, por lo que no se recomienda su consumo durante el embarazo y lactancia.
       title: Cardo Mariano (Silybum Marianum)
     b12:
-      title: Vitamína B12
+      title: Vitamina B12
       beneficios:
         title: 'Beneficios de la B12:'
       contraindicaciones:
@@ -173,9 +177,13 @@ es:
     quantity: Cantidad
     price: Precio
     total: Total
-    checkout: Pagar
-    coupon: Cupón
+    tax: Impuestos
+    discount: Descuento
+    coupon:
+      label: Cupón
+      apply: Aplicar
     stock: En stock
+    checkout: Pagar
   about:
     partners:
       title: Socios comerciales
@@ -188,125 +196,9 @@ es:
     message: Esta web utiliza cookies para ofrecerte una mejor experiencia y servicio
     got_it: Acepto
     learn_more: Más información
-    detail:
-      navitagion:
-        title: En relación a las Cookies durante la navegación
-      navigation:
-        text: 'Una cookie (o galleta informática) es una pequeña información enviada
-          por un sitio web y almacenada en el navegador del usuario, de manera que
-          el sitio web puede consultar la actividad previa del usuario. Sus principales
-          funciones son:'
-        bullet: Conseguir información sobre los hábitos de navegación del usuario,
-          entre otras.
-      thirdparty:
-        title: Cookies de terceros dioniberica.com
-        kind:
-          subtitle: Tipo de Cookie
-        firm:
-          subtitle: Empresa
-        purpose:
-          subtitle: Finalidad
-        info:
-          subtitle: Información
-          text: Navegación de forma anónima que permite saber qué se consulta y cómo
-            se navega.http://www.google.es/intl/es/analytics/privacyoverview.html
-        manageCookies:
-          subtitle: Gestionar cookies
-          boldtext: Puedes permitir, bloquear o eliminar las cookies instaladas en
-            tu equipo mediante la configuración de las opciones del navegador instalado
-            en tu ordenador.
-          text: 'Si no estás seguro sobre qué tipo y versión de navegador usas para
-            acceder a internet:'
-          bullet_1: 'Para Windows: click en "Ayuda" en la parte superior de la ventana
-            de tu navegador y selecciona la opción "Acerca de".'
-          bullet_2: 'Para Mac: con la venta del navegador abierta, click en el menú
-            de Apple y selecciona la opción "Acerca de…".'
-      howToManage:
-        win:
-          title: Cómo gestionar las cookies en Windows
-          chrome:
-            pasos: |-
-              Haz clic en el menú de Chrome Chrome situado en la barra de herramientas del navegador.
-              Selecciona "Configuración.
-              Haz clic en "Mostrar opciones avanzadas…
-              En la sección "Privacidad", haz clic en el botón "Configuración de contenido….
-              En la sección "Cookies", puedes configurar las opciones que se indican a continuación: Eliminar cookies, bloquear o permitir las cookies de forma predeterminada, incluir excepciones de cookies de dominios o sitios web específicos.
-              Para mayor detalle consulta la ayuda de Google Chrome.
-          ie:
-            pasos: |-
-              Haz clic en el botón "Herramientas" y después en "Opciones de Internet".
-              Haz clic en la ficha "Privacidad" y, a continuación, mueve el control deslizante a una posición intermedia entre los extremos superior e inferior, de manera que no se bloqueen ni permitan todas las cookies.
-              Haz clic en "Sitios".
-              En el cuadro "Dirección del sitio web", escribe la dirección de un sitio web y, después, haz clic en "Bloquear" o "Permitir".
-              Mientras escribes, irá apareciendo una lista de las páginas web que ya has visitado. Si haces clic en un elemento de la lista, se mostrará en el cuadro Dirección del sitio web.
-              Al finalizar, haz clic en "Aceptar".
-              Vuelve a colocar el control deslizante en su posición original y haz clic en "Aceptar".
-              Puedes consultar la ayuda de Windows para más información
-          firefox:
-            pasos: |-
-              En la parte superior de la ventana de Firefox, haz clic en el botón Firefox y selecciona "Opciones".
-              Selecciona el panel "Privacidad".
-              En "Firefox podrá:" elige "Usar una configuración personalizada para el historial".
-              Marca la opción "Aceptar cookies" para activarlas, y desmárcala para desactivarlas.
-              Si no quieres recibir cookies de teceros desmarca "Aceptar cookies de terceros".
-              Puedes consultar la ayuda de Mozilla para más información
-          safari:
-            pasos: |-
-              Haz clic en "Safari" en la parte superior de la ventana de tu navegador y selecciona la opción "Preferencias".
-              Haz clic en "Privacidad".
-              En el apartado "Bloquear cookies" selecciona una de las siguientes opciones según te interese: "De publicidad y terceros", "Siempre", o "Nunca".
-          opera:
-            pasos: |-
-              Haz clic en "Configuración" en la parte superior de la ventana del navegador y selecciona "Opciones".
-              A continuación selecciona la pestaña "Avanzado" y en la lista de la izquierda selecciona "Cookies".
-              A continuación, selecciona "Aceptar cookies".
-              Dispones de tres opciones según tu preferencia: "Aceptar cookies".
-        chrome:
-          subtitle: Google Chrome
-        ie:
-          subtitle: Microsoft Internet Explorer 7.0 y 8.0
-        firefox:
-          subtitle: Mozilla Firefox
-        safari:
-          subtitle: Safari
-        opera:
-          subtitle: Opera
-        mac:
-          title: Cómo gestionar las cookies en Mac
-          chrome:
-            pasos: |-
-              Haz clic en el menú de Chrome Chrome situado en la barra de herramientas del navegador.
-              Selecciona "Configuración".
-              Haz clic en "Mostrar opciones avanzadas…".
-              En la sección "Privacidad", haz clic en el botón "Configuración de contenido…".
-              En la sección "Cookies", puedes configurar las opciones que se indican a continuación: Eliminar cookies, bloquear o permitir las cookies de forma predeterminada, incluir excepciones de cookies de dominios o sitios web específicos.
-          ie:
-            pasos: |-
-              Haz clic en "Explorer" en la parte superior de la ventana de tu navegador y selecciona las opciones de "Preferencias".
-              Desplázate hacia abajo hasta que aparezca "Cookies" en Archivos recibidos.
-              Selecciona la opción "Nunca preguntar".
-              Haz clic en "Aceptar".
-          firefox:
-            pasos: |-
-              En la barra de menús, haz clic en el menú Firefox y selecciona "Preferencias…".
-              Selecciona el panel Privacidad.
-              En "Firefox podrá:" elige "Usar una configuración personalizada para el historial".
-              Marca la opción "Aceptar cookies" para activarlas, y desmárcala para desactivarlas.
-              Si no quieres recibir cookies de teceros desmarca "Aceptar cookies de terceros".
-          safari:
-            pasos: |-
-              Haz clic en "Safari" en la parte superior de la ventana de tu navegador y selecciona la opción "Preferencias".
-              Haz clic en "Privacidad".
-              En el apartado "Bloquear cookies" selecciona una de las siguientes opciones según te interese: "De publicidad y terceros", "Siempre", o "Nunca".
-          opera:
-            pasos: |-
-              Haz clic en "Opera" en la parte superior de la ventana del navegador y selecciona "Opciones".
-              A continuación selecciona la pestaña "Avanzado" y en la lista de la izquierda selecciona "Cookies".
-              A continuación, selecciona "Aceptar cookies".
-              Dispones de tres opciones según tu preferencia: "Aceptar cookies", "Aceptar cookies sólo del sitio visitado" y "No aceptar cookies nunca".
   thankyou:
     old:
-      thanks: "{NAME}, gracias por comprar con nosotros."
+      thanks: "{NAME}, gracias por confiar en nosotros."
     thanks: Gracias por comprar con nosotros.
     looking_forward: "¡Esperamos verte de nuevo muy pronto!"
     order_number: 'Pedido num: {ORDER}'
@@ -324,8 +216,9 @@ es:
   mail:
     sender: info@dioniberica.com
     title: Gracias por confiar en Dion
-    subtitle: Recién hemos recibido tu pedido - ¡muchas gracias!
-    text: Los ítems que pediste serán enviados tan pronto sea posible.
+    subtitle: Ya hemos recibido tu pedido ¡Muchas gracias!
+    text: Los ítems que pediste serán enviados en breve. Te mandaremos un correo confirmando
+      el envío.
     purchaseNumber:
       title: Pedido número
     data:
@@ -336,6 +229,8 @@ es:
       text: Datos del envío
     purchaseResume:
       text: Resumen del pedido
+    product:
+      text: Producto
     volume:
       text: Cantidad
     price:
@@ -353,3 +248,21 @@ es:
       send: Escríbenos un email
       email: info@dioniberica.com
       provider: Este email fue enviado por Dion Spain
+  shops:
+    title: Dónde encontrarnos
+    subtitle: En el siguiente mapa podrás ver todos los establecimientos donde encontrar
+      Dion conjuntamente con los horarios de apertura. Si no tienes cerca ningún establecimiento,
+      puedes comprar Dion a través de esta web y te lo enviamos a casa. Si deseas
+      que algún establecimiento de tus alrededores disponga de Dion, no dudes en contactarnos
+      y lo gestionaremos para que así sea.
+    type:
+      pharmacy: Farmacia
+      bar: Bar
+    week:
+      monday: Lunes
+      tuesday: Martes
+      wednesday: Miércoles
+      thursday: Jueves
+      friday: Viernes
+      saturday: Sábado
+      sunday: Domingo

@@ -3,7 +3,7 @@
 ca:
   home:
     favicon:
-      title: DION | Anticípa't a la ressaca
+      title: DION | Anticipa't a la ressaca
     title: Anticipa't a la ressaca amb Dion
     main-title: Anticipa't a la ressaca amb Dion
     main-subtitle: 'DION: El nou complement alimentós compost a base de vitamines
@@ -15,14 +15,14 @@ ca:
       buy:
         link: COMPRAR
     why:
-      title: Ja pots gaudir els teus events sense preocuparte pels símptomes de la
-        ressaca
-      text: Prenent una cápsula de Dion durant el consum d'alcohol donarás al teu
-        cos l'energía necessária per a processar l'alcohol a una major velocitat i
+      title: Ja pots gaudir els teus esdeveniments sense preocupar-te pels símptomes
+        de la ressaca
+      text: Prenent una càpsula de Dion durant el consum d'alcohol donaràs al teu
+        cos l'energia necessària per a processar l'alcohol a una major velocitat i
         aixecar-te sense patir els maleïts símptomes de la ressaca.
     steps:
       title: Instruccions d'ús
-      subtitle: Segueix aquests 3 simples pasos per a oblidar-te de la resaca.
+      subtitle: Segueix aquests 3 simples passos per a oblidar-te de la ressaca.
     suggestions:
       title: RECOMANACIONS
       more: Més informació
@@ -30,21 +30,21 @@ ca:
       title: Opinions sobre Dion
     composition:
       title: Composició
-      text: Complement alimentos natural compost a base de vitamines i extractes de
+      text: Complement alimentós natural compost a base de vitamines i extractes de
         planta.
       product:
         photo: "/producto/ES/blister-design.jpg"
       price:
         value: 5€
-        VAT: "(IVA no inclós)"
+        VAT: "(IVA no inclòs)"
       more:
         info: Més informació
     add-to-cart:
       text: AFEGIR A LA CISTELLA
   meta:
-    description: Prenent un Dion abans de sortir de festa podras gaudir dels teus
-      events sense patir els efectes de la ressaca del dia següent.
-    keywords: ressaca, antiressaca, evitar, previndre, curar, mal de cap, anticipar,
+    description: Prenent un Dion abans de sortir de festa podràs gaudir dels teus
+      esdeveniments sense patir els efectes de la ressaca de l'endemà.
+    keywords: ressaca, antiressaca, evitar, prevenir, curar, mal de cap, anticipar,
       alcohol, remeis per a la ressaca, remei, festa, party, copa, discoteca, cervesa,
       vi, finde, cap de setmana, amics, amigues, bodes, comiats de solter, comiats
       de soltera, viatge, viatges, bachellor, erasmus, residència d'estudiants, farmàcia,
@@ -60,6 +60,8 @@ ca:
       title: FAQ
     contact:
       title: Contacte
+    shops:
+      title: On trobar-nos
     product:
       title: Producte
     about:
@@ -77,7 +79,7 @@ ca:
       buy: Comprar
   contact:
     title: Contacte
-    subtitle: Si tens alguna pregunta, sugeriment o simplement vols enviar-nos salutacions
+    subtitle: Si tens alguna pregunta, suggeriment o simplement vols enviar-nos salutacions
       pots fer-ho mitjançant aquest formulari de contacte.
     field:
       name: Nom i Cognoms
@@ -102,7 +104,7 @@ ca:
     telephone_placeholder: Introdueixi el seu telèfon
     email_placeholder: Introdueixi el seu correu electrònic
     name_placeholder: Introdueixi el seu nom
-    text: Digue'ns on t'agradaria trobar Dion i nosaltres n'hi durem.
+    text: Digues on t'agradaria trobar Dion i nosaltres n'hi durem.
   contact-sent:
     title: Contacte
     message: Si no ho fa ara, quan?
@@ -118,43 +120,45 @@ ca:
     email: info@dioniberica.com
     address: C/ Riera de'n Font, 60A, 2-5, Tiana (Barcelona)
     telephone: "(+34) 627.179.740"
+    issim:
+      text: 'Imatges per cortesia de l''estudi fotogràfic professional:'
+      logo: "/logo_issim"
   faqs:
-    title: Faqs
+    title: FAQs
     section1:
       title: Preguntes freqüents
-      text: Hem creat una llista amb les preguntes més freqüents per a que tingueu
-        tota la informació necessaria en cualsevol moment. Si teniu preguntes adicionals
+      text: Hem creat una llista amb les preguntes més freqüents perquè tingueu tota
+        la informació necessària en qualsevol moment. Si teniu preguntes addicionals,
         no dubteu a contactar-nos.
     section2:
-      title: Preguntes no tant freqüents
-      text: Hem creat una altre llista amb preguntes menys freqüents peró que creiem
+      title: Preguntes no tan freqüents
+      text: Hem creat una altra llista amb preguntes menys freqüents però que creiem
         que també mereixen una resposta.
   product:
-    title: Blister de 10 comprimits Dion
+    title: Blíster de 10 comprimits Dion
     price:
       title: Preu
-      data: 5 € (+0.50 € IVA)
+      data: 5,5 € (IVA incluido)
     cad:
       title: 'Caducitat:'
       data: 3 anys
     shipping:
-      title: 'Métode d''enviament:'
-      data: Sobre amb reforç intern de seguretat per a evitar desperfectes mitjançant
-        correu ordinari.
+      title: 'Mètode d''enviament:'
+      data: Correu ordinari amb sobre reforçat.
     composition:
       title: Composició
     cm:
       beneficios:
         title: 'Beneficis del Cardo Mariano:'
       data: |-
-        Es una planta que creix lliurement a la natura i que l'esser humá utilitza des dels temps bíblics degut a les seves múltiples propietats medicinals.
-        Els primers vestigis escrits sobre les propietats curatives del Cardo Mariano es remonten a la época dels Grecs, cuan el metge Dioscóridces l'empreva com a remei contra les mossegades de les serps i per Plinio qui l'administrava com a remei per a la bilis. Posteriorment, a l'edat mitjana es descriu el seu ús com a potent antídot per a desintoxicar el fetge.
-        Entre les seves propietats destaca el fet de que sigui un potent protector hepátic, ja que protegeix de les toxines estimulant el creixement i la regeneració de nous teixits del fetge.
+        És una planta que creix lliurement a la natura i que l'esser humà utilitza des dels temps bíblics degut a les seves múltiples propietats medicinals.
+        Els primers vestigis escrits sobre les propietats curatives del Cardo Mariano es remunten a l'època dels Grecs, quan el metge Dioscóridces l'emprava com a remei contra les mossegades de les serps, i per Plinio qui l'administrava com a remei per a la bilis. Posteriorment, a l'edat mitjana es descriu el seu ús com a potent antídot per a desintoxicar el fetge.
+        Entre les seves propietats destaca el fet que sigui un potent protector hepàtic, ja que protegeix de les toxines estimulant el creixement i la regeneració de nous teixits del fetge.
       contraindicaciones:
         title: 'Contraindicacions del Cardo Mariano:'
         description: |-
-          No té efectes nocíus per a l'organisme humá.
-          Malgrat que tradicionalment s'ha emprat pera augmentar la llet de les lactants, no existeixen proves suficients per a confirmar la seva eficácia, pel que no es recomana el seu ús durant l'embarás i la lactancia.
+          No té efectes nocius per a l'organisme humà.
+          Malgrat que tradicionalment s'ha emprat per a augmentar la llet de les lactants, no existeixen proves suficients per a confirmar la seva eficàcia, pel que no es recomana el seu ús durant l'embaràs i la lactància.
       title: Cardo Mariano (Silybum Marianum)
     b12:
       title: Vitamína B12
@@ -163,24 +167,28 @@ ca:
       contraindicaciones:
         title: 'Contraindicacions de la B12:'
         description: No s'ha demostrat que la vitamina B12 causi cap mena de mal.
-      data: La vitamina B12, o cobalamina, es una vitamina hidrosoluble que el cos
-        humá absorveix diariament per a mantindre's saludable. L'ús d'alcohol consumeix
-        una gran cuantitat d'aqeusta vitamina i impacta sobre la mucosa gástrica i
-        sobre el fetge, el que es veu reflexat en un empitjorament en el seu procés
+      data: La vitamina B12, o cobalamina, és una vitamina hidrosoluble que el cos
+        humà absorbeix diàriament per a mantenir-se saludable. L'ús d'alcohol consumeix
+        una gran quantitat d'aquesta vitamina i impacta sobre la mucosa gàstrica i
+        sobre el fetge, el que es veu reflectit en un empitjorament en el seu procés
         d'absorció.
   cart:
     title: La teva cistella
     product: Producte
-    quantity: Cuantitat
+    quantity: Quantitat
     price: Preu
     total: Total
+    tax: Impostos
+    discount: Descompte
+    coupon:
+      label: Cupó
+      apply: Aplicar
+    stock: En estoc
     checkout: Pagar
-    coupon: Cupó
-    stock: En stock
   about:
     partners:
       title: Socis comercials
-      text: Si vols colaborar amb nosaltres no dubtis en contactar amb nosaltres.
+      text: Si vols col·laborar amb nosaltres, no dubtis en contactar-nos.
   not_found:
     title: No trobat
     message: Recurs no trobat
@@ -189,84 +197,11 @@ ca:
     message: Aquesta web utilitza cookies per oferir-te una millor experiència i servei
     got_it: Accepto
     learn_more: Més informació
-    detail:
-      navitagion:
-        title: En relació a les Cookies durant la navegació
-      navigation:
-        text: 'Una cookie (o galeta informàtica) és una petita informació enviada
-          per un lloc web i emmagatzemada al navegador de l''usuari, de manera que
-          el lloc web pot consultar l''activitat prèvia de l''usuari. Les seves principals
-          funcions són:'
-        bullet: Conseguir informació sobre els hàbits de navegació de l'usuari, entre
-          d'altres.
-      thirdparty:
-        title: Cookies de tercers dioniberica.com
-        kind:
-          subtitle: Tipus de Cookie
-        firm:
-          subtitle: Empresa
-        purpose:
-          subtitle: Finalitat
-        info:
-          subtitle: Informació
-          text: Navegació anònima que permet saber què es consulta i com es navega.        http://www.google.es/intl/es/analytics/privacyoverview.html
-        manageCookies:
-          subtitle: Gestionar cookies
-          boldtext: Pots permetre, bloquejar o eliminar les cookies instal·lades al
-            teu equip mitjançant la configuració de les opcions del navegador instal·lat
-            al teu ordinador.
-          text: 'Si no estàs segur de quin tipus i versió de navegador fas servir
-            per accedir a internet:'
-          bullet_1: 'Per Windows: has de clicar a "Ajuda" a la part superior de la
-            finestra del teu navegador i seleccionar l''opció "Sobre el".'
-          bullet_2: 'Per Mac: amb la finestra del navegador oberta, s''ha de clicar
-            al menú d''Apple i seleccionar l''opció "Sobre el...".'
-      howToManage:
-        win:
-          title: Com gestionar les cookies a Windows
-          chrome:
-            pasos: |-
-              Fes clic al menú de Chrome situat a la barra d'eines del navegador.
-              Selecciona "Configuració".
-              Fes clic a "Mostrar opcions avançades..."
-              A la secció "Privacitat", fes clic al botó "Configuració de contingut...".
-              A la secció "Cookies", pots configurar les opcions que s'indiquen a continuació: Eliminar cookies, bloquejar o permetre les cookies de forma predeterminada, incloure excepcions de cookies de dominos o llocs web específics.
-              Si necessites més detalls pots consultar l'ajuda de Google Chrome.
-          ie:
-            pasos: demo
-          firefox:
-            pasos: demo
-          safari:
-            pasos: demo
-          opera:
-            pasos: demo
-        chrome:
-          subtitle: Google Chrome
-        ie:
-          subtitle: Microsoft Internet Explorer 7.0 y 8.0
-        firefox:
-          subtitle: Mozilla Firefox
-        safari:
-          subtitle: Safari
-        opera:
-          subtitle: Opera
-        mac:
-          title: demo
-          chrome:
-            pasos: demo
-          ie:
-            pasos: demo
-          firefox:
-            pasos: demo
-          safari:
-            pasos: demo
-          opera:
-            pasos: demo
   thankyou:
     old:
-      thanks: "{NAME}, gràcies per confiar amb nosaltres"
+      thanks: "{NAME}, gràcies per confiar en nosaltres"
     thanks: Gràcies per confiar amb nosaltres
-    looking_forward: "¡Esperem tornar-te a veure aviat!"
+    looking_forward: Esperem tornar-te a veure aviat!
     order_number: 'Comanda num: {ORDER}'
     amount: 'Total: {MONEY}'
     send_to: 'Enviar a: {ADRESS}'
@@ -281,9 +216,10 @@ ca:
       title: La teva cistella
   mail:
     sender: info@dioniberica.com
-    title: Grácies per confiar en Dion
-    subtitle: Acabem de rebre la teva comanda. Moltes grácies!
-    text: Els articles que has demanat serán enviats tant aviat com ens sigui posible.
+    title: Gràcies per confiar en Dion
+    subtitle: Acabem de rebre la teva comanda. Moltes gràcies!
+    text: Els articles que has demanat seran enviats tan aviat com ens sigui possible.
+      T'enviarem un correu confirmant la seva sortida del nostre magatzem.
     purchaseNumber:
       title: Número de comanda
     data:
@@ -294,8 +230,10 @@ ca:
       text: Dades per a l'enviament
     purchaseResume:
       text: Resum de la comanda
+    product:
+      text: Producte
     volume:
-      text: Cuantitat
+      text: Quantitat
     price:
       text: Preu
     detailedCost:
@@ -305,9 +243,27 @@ ca:
       tax: Impost
       total: Total
     footer:
-      help: Necesites asisténcia? Contacta amb nosaltres i farem tot el que poguem
-        per a garantir que gaudeixes de la teva experiencia amb nosaltres.
-      call: 'Truca''ns al telefon: (+34) 627.17.97.40.'
+      help: Necessites assistència? Contacta amb nosaltres i farem tot el que puguem
+        per a garantir que gaudeixes de la teva experiència amb nosaltres.
+      call: 'Truca''ns al telèfon: (+34) 627.17.97.40.'
       send: Escriu-nos al mail
       email: info@dioniberica.com
       provider: Aquest e-mail ha estat enviat per Dion Spain.
+  shops:
+    title: On trobar-nos
+    subtitle: En el següent mapa podràs veure tots els establiments on trobar Dion
+      conjuntament amb l'horari d'obertura. Si no tens cap establiment a prop, pots
+      comprar Dion mitjançant aquesta web i t'ho enviarem a casa. Si desitges que
+      algun establiment del teu voltant disposi de Dion, no dubtis a contactar-nos
+      i ho gestionarem perquè així sigui.
+    type:
+      pharmacy: Farmàcia
+      bar: Bar
+    week:
+      monday: Dilluns
+      tuesday: Dimarts
+      wednesday: Dimecres
+      thursday: Dijous
+      friday: Divendres
+      saturday: Dissabte
+      sunday: Diumenge
