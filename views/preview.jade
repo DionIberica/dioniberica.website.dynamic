@@ -96,6 +96,14 @@ html(xmlns='http://www.w3.org/1999/xhtml')
       .footer p, .footer a, .footer unsubscribe, .footer td {
         font-size: 12px;
       }
+      pre.coupon {
+        font-family: monospace;
+        font-size: 13px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 400;
+        line-height: 18.5714px;
+      }
 
       /* -------------------------------------
           GRID AND COLUMNS
@@ -336,6 +344,8 @@ html(xmlns='http://www.w3.org/1999/xhtml')
                                   td(align='right') #{(cart.subtotal / 100).toFixed(2)} €
                                 tr
                                   td
+                                    if cart.coupon
+                                      pre.coupon #{cart.coupon}
                                   td #{i18n.__('mail.detailedCost.discount')}
                                   td(align='right') #{(cart.discount / 100).toFixed(2)} €
                                 tr

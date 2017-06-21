@@ -283,7 +283,7 @@ en:
     detailedCost:
       subtotal: Subtotal
       transport: Shipment cost
-      discount: Discount cupon
+      discount: Coupon discount
       tax: Tax
       total: Total
     footer:
