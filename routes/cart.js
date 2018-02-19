@@ -1,5 +1,6 @@
 const express = require('express');
 const Raven = require('raven');
+const Stripe = require('stripe');
 const Cart = require('../lib/cart');
 const sendCheckoutEmail = require('../lib/emails/checkout');
 
@@ -7,9 +8,9 @@ const router = express.Router();
 
 router.all('*', (req, res, next) => {
   const locale = (req.query.locale || req.body.locale || req.session.locale).split('_')[0];
-  const stripe = req.app.get('stripe')(locale);
+  const envName = (req.app.get('env') === 'development' ? 'TEST_' : '') + 'STRIPE';
 
-  req.cart = new Cart(stripe, req.session, 1, 100, locale);
+  req.cart = new Cart(Stripe(process.env[envName]), req.session, 1, 100, locale);
 
   next();
 });
@@ -66,7 +67,10 @@ router.post('/checkout', (req, res) => {
     });
   })
   .then(() => {
-    res.redirect(success);
+    const amount = (req.cart.amount / 100).toFixed(2);
+    const transaction = results.charge.description;
+
+    res.redirect(success + '?amount=' + amount + '&transaction=' + transaction);
   })
   .catch((reason) => {
     Raven.captureException(reason);

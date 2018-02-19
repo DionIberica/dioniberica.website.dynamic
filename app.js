@@ -67,16 +67,6 @@ app.use(function(req, res, next) {
     next(err);
 });
 
-app.set('stripe', (locale) => {
-  var stripe = require('stripe');
-
-  if (app.get('env') === 'development') {
-    return stripe(process.env['TEST_STRIPE']);
-  } else {
-    return stripe(process.env['STRIPE_' + locale.toUpperCase()]);
-  }
-});
-
 // error handlers
 app.use(Raven.errorHandler());
 
