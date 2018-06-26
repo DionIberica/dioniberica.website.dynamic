@@ -35,8 +35,8 @@ es:
       product:
         photo: "/producto/ES/blister-design.jpg"
       price:
-        value: 5€
-        VAT: "(IVA no incluido)"
+        value: 5,95€
+        VAT: "(IVA incluido)"
       more:
         info: Más información
     add-to-cart:
@@ -44,15 +44,8 @@ es:
   meta:
     description: Tomando Dion antes de salir de fiesta podrás disfrutar de tus eventos
       y evitarás tener resaca al dia siguiente.
-    keywords: resaca, antiresaca, evitar, prevenir, curar, dolor cabeza, anticipar,
-      alcohol, remedios resaca, remedio, fiesta, party, cubata, discoteca, cerveza,
-      vino, finde, fin de semana, amigos, amigas, bodas, despedidas de soltero, despedidas
-      de soltera, viaje, viajes, bachellor, erasmus, residencia estudiantes, farmacia,
-      salud, sanidad, natural, cardo mariano, vitamina, vitamina B12, B12, B 12, complejo
-      multivitaminico, comprimidos, pastillas, capsulas, Celine Dion, musica, dj,
-      kit antiresaca, economico, barato, sexo, porno, prono, droga, drogas, timo,
-      fake, ibuprofeno, aspirina, ibu, ibuporfeno, hang over, hangover, star wars,
-      agua, zumo naranja, B1, B2, B6, acetilcisteina
+    keywords: resaca, pastillas para resaca, antiresaca, dolor cabeza, nauseas alcohol,
+      vitamina B12, cardo mariano, prevenir resaca, curar resaca
   menu:
     home:
       title: Inicio
@@ -61,11 +54,27 @@ es:
     contact:
       title: Contacto
     shops:
-      title: Dónde encontrarnos
+      title: Puntos de venta
+    return:
+      title: Condiciones de Devolución y Reembolso
+    privacy:
+      title: Política de privacidad
+    legaladvise:
+      title: Aviso Legal
+    generalterm:
+      title: Condiciones Generales
     product:
       title: Producto
     about:
       title: Sobre nosotros
+  return:
+    title: Condiciones de Devolución y Reembolso
+  privacy:
+    title: Política de privacidad
+  legaladvise:
+    title: Aviso Legal
+  generalterm:
+    title: Condiciones Generales
   generic:
     language: Idioma
   locales:
@@ -118,8 +127,10 @@ es:
     company:
       name: Dion Resakapsulus Spain S.L.
     email: info@dioniberica.com
-    address: C/ Riera de'n Font, 60A, 2-5, Tiana (Barcelona)
+    address: C/ Riera de'n Font, 60 Tiana (Barcelona)
     telephone: "(+34) 627.179.740"
+    working:
+      hours: Atención Telefónica de Lunes a Viernes de 8:00 a 16:00
     issim:
       text: 'Imágenes por cortesía del estudio de fotografía profesional:'
       logo: "/logo_issim"
@@ -134,17 +145,26 @@ es:
       title: Preguntas no tan frecuentes
       text: Hemos creado otra lista con preguntas menos frecuentes que creemos que
         también merecen una respuesta.
+    section3:
+      title: Preguntas relacionadas con las entregas de los pedidos
+      text: Hemos recopilado las principales preguntas relacionadas con la entrega
+        de los pedidos
   product:
     title: Blister 10 comprimidos Dion
     price:
       title: Precio
-      data: 5,5 € (IVA incluido)
+      data: 5,95 € (IVA incluido)
     cad:
       title: 'Periodo de caducidad:'
       data: 3 años
     shipping:
       title: 'Método de envío:'
-      data: Correo ordinario con sobre acolchado.
+      data: Correo ordinario.
+    special-shipping:
+      title: 'Condiciones especiales:'
+      data: |-
+        Los pedidos superiores a 25€ se mandarán por correo urgente.
+        Pedido mínimo de 15€ para compras desde la Unión Europea fuera de España.
     composition:
       title: Composición
     cm:
@@ -166,7 +186,7 @@ es:
         title: 'Beneficios de la B12:'
       contraindicaciones:
         title: 'Contraindicaciones de la B12:'
-        description: No se ha demostrado que la vitamina B12 cause daño alguno.
+        description: No existen indicios de que la vitamina B12 cause daño alguno.
       data: La vitamina B12, o cobalamina, es una vitamina hidrosoluble que el cuerpo
         humano absorbe diariamente para mantenerse saludable. El uso de alcohol consume
         una gran cantidad de esta vitamina e impacta en la mucosa gástrica y en el
@@ -184,6 +204,13 @@ es:
       apply: Aplicar
     stock: En stock
     checkout: Pagar
+    delivery:
+      text: Su pedido será depositado en el buzón de la dirección que nos indique.
+    comercial:
+      delivery:
+        text: En caso de indicar una dirección que corresponda a un lugar de trabajo
+          o local comercial, indique su nombre y el nombre del comercio para facilitar
+          la entrega de su pedido.
   about:
     partners:
       title: Socios comerciales
@@ -199,15 +226,18 @@ es:
   thankyou:
     old:
       thanks: "{NAME}, gracias por confiar en nosotros."
-    thanks: Gracias por comprar con nosotros.
+    thanks: Gracias por confiar en nosotros. Pronto recibirás un e-mail con la confirmación
+      del pedido.
     looking_forward: "¡Esperamos verte de nuevo muy pronto!"
     order_number: 'Pedido num: {ORDER}'
     amount: 'Total: {MONEY}'
     send_to: 'Enviar a: {ADRESS}'
     continue_shopping: Seguir comprando
   failure:
-    error: Lamentamos comunicarle que ha ocurrido un error con su compra
-    contact: Por favor, póngase en contacto con nosotros
+    error: Lamentamos comunicarle que ha ocurrido un error con su compra, por favor
+      inténtelo de nuevo revisando que introduce correctamente los números de su tarjeta
+    contact: Si tras intentarlo de nuevo sigue apareciendo este error, por favor,
+      póngase en contacto con nosotros
   checkout:
     failure:
       title: Tu carrito
@@ -217,8 +247,8 @@ es:
     sender: info@dioniberica.com
     title: Gracias por confiar en Dion
     subtitle: Ya hemos recibido tu pedido ¡Muchas gracias!
-    text: Los ítems que pediste serán enviados en breve. Te mandaremos un correo confirmando
-      el envío.
+    text: Tu pedido será enviado en breve. Te mandaremos un correo confirmando el
+      envío.
     purchaseNumber:
       title: Pedido número
     data:

@@ -34,22 +34,16 @@ pt:
       product:
         photo: "/producto/PT/blister-design.jpg"
       price:
-        value: 5,65€
-        VAT: "(IVA não incluído)"
+        value: 5,95€
+        VAT: "(IVA incluído)"
       more:
         info: Mais informação
     add-to-cart:
       text: ADICIONAR AO CARRINHO
   meta:
     description: Toma Dion, aproveita as tuas festas e evita a ressaca do dia seguinte.
-    keywords: ressaca, antiressaca, evitar, prevenir, curar, dor de cabeça, antecipar,
-      álcool, remedio, festa, party, discoteca, cerveja, vinho, fim de semana, amigos,
-      amigas, casamentos, despedidas de solteiro, despedidas de solteira, viagem,
-      viagens, bachellor, erasmus, residencia de estudantes, farmácia, saúde, natural,
-      cardo mariano, vitamina, vitamina B12, B12, B 12, complexo multivitaminico,
-      comprimidos, capsulas, Celine Dion, musica, dj, kit antiressaca, económico,
-      barato, sexo, porno, droga, drogas, ibuprofeno, brufen, aspirina, hang over,
-      hangover, star wars, água, sumo laranja, B1, B2, B6, acetilcisteina
+    keywords: ressaca, comprimidos para ressaca, antiressaca, dor de cabeça, álcool,
+      vitamina B12, cardo mariano
   menu:
     home:
       title: Início
@@ -58,11 +52,27 @@ pt:
     contact:
       title: Contactos
     shops:
-      title: Onde nos encontrar
+      title: Pontos de venda
+    return:
+      title: Condições de Devolução
+    privacy:
+      title: Política de Privacidade
+    legaladvise:
+      title: Aviso Legal
+    generalterm:
+      title: Condições Gerais
     product:
       title: Produto
     about:
       title: Sobre nós
+  return:
+    title: Condições de Devolução
+  privacy:
+    title: Política de Privacidade
+  legaladvise:
+    title: Aviso Legal
+  generalterm:
+    title: Condições Gerais
   generic:
     language: Idioma
   locales:
@@ -90,12 +100,12 @@ pt:
       mail: Dados de contacto
       social: Redes sociais
     socialmedia:
-      facebook: https://www.facebook.com/dionport/
-      instagram: https://www.instagram.com/dion_pt
+      facebook: https://www.facebook.com/dionIberica/
+      instagram: https://www.instagram.com/dion_spain
     map:
-      longitude: '38.692116'
-      latitude: "-9.3218501"
-      description: Dion Iberica LDA.
+      longitude: '41.4836682'
+      latitude: '2.2704794'
+      description: Dion Resakapsulus Spain S.L.
     message_placeholder: Mensagem
     subject_placeholder: Assunto
     telephone_placeholder: Introduz o teu telemóvel
@@ -113,10 +123,12 @@ pt:
     follow:
       title: Segue-nos
     company:
-      name: Dion Iberica LDA.
-    email: info-pt@dioniberica.com
-    address: Alameda Conde Oeiras - Torre I R/C Esq. 2780-139 Oeiras
-    telephone: "(+351) 91 261 38 66"
+      name: Dion Resakapsulus Spain S.L.
+    email: info@dioniberica.com
+    address: C/ Riera de'n Font, 60 Tiana (Barcelona)
+    telephone: "(+34) 627.179.740"
+    working:
+      hours: Atenção telefonica da segunda-feira até a sexta-feira das 8h00 às 16h00
     issim:
       text: 'Imagens oferecidas pelo estudo fotografico:'
       logo: "/logo_issim"
@@ -131,17 +143,25 @@ pt:
       title: Perguntas não tão frequentes
       text: Criámos outra lista, com perguntas menos frequentes, que acreditamos que
         merecem também uma resposta.
+    section3:
+      title: Perguntas relacionadas com as entregas dos pedidos
+      text: Temos recolhido as principais perguntas relacionadas com a entrega dos
+        pedidos
   product:
     title: Blister com 10 comprimidos Dion
     price:
       title: Preço
-      data: 6.95 € (IVA incluido)
+      data: 5,95 € (IVA incluido)
     cad:
       title: 'Validade:'
       data: 3 anos
     shipping:
       title: 'Método de envio:'
-      data: Correios
+      data: Correios.
+    special-shipping:
+      title: 'Condições especiais:'
+      data: Compra mínima de 2 blisters para compras da União Europeia que não sejam
+        de Portugal ou da Espanha.
     composition:
       title: Composição
     cm:
@@ -183,6 +203,13 @@ pt:
       apply: Aplicar
     stock: Em stock
     checkout: Pagar
+    delivery:
+      text: A sua comanda será depositada na caixa postal da direcção que nos indique.
+    comercial:
+      delivery:
+        text: Em caso de indicar uma direcção que corresponda a um lugar de trabalho
+          ou um local comercial, indique o seu nome e o nome do comércio para facilitar
+          a entrega da sua comanda.
   about:
     partners:
       title: Parceiros comerciais
@@ -213,7 +240,7 @@ pt:
     success:
       title: O teu carrinho
   mail:
-    sender: info.pt@dioniberica.com
+    sender: info@dioniberica.com
     title: Obrigado por confiares em nós
     subtitle: Recebemos o teu pedido - obrigado!
     text: Os artigos que pediste serão enviados o quanto antes.
@@ -242,10 +269,10 @@ pt:
     footer:
       help: Necessitas de ajuda? Entra em contacto conosco e faremos os possiveis
         para que aproveites a tua experiência conosco.
-      call: 'Liga-nos: +351 91 261 38 66'
+      call: 'Liga-nos: (+34) 627.17.97.40.'
       send: Envia-nos um email
-      email: info.pt@dioniberica.com
-      provider: Este email foi enviado por Dion Portugal
+      email: info@dioniberica.com
+      provider: Este email foi enviado por Dion Spain
   shops:
     title: Onde nos encontrar
     subtitle: No seguinte mapa poderás ver todos o pontos de venda da Dion. Se não

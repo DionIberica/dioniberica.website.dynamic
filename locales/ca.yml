@@ -35,8 +35,8 @@ ca:
       product:
         photo: "/producto/ES/blister-design.jpg"
       price:
-        value: 5€
-        VAT: "(IVA no inclòs)"
+        value: 5,95€
+        VAT: "(IVA inclòs)"
       more:
         info: Més informació
     add-to-cart:
@@ -44,15 +44,8 @@ ca:
   meta:
     description: Prenent un Dion abans de sortir de festa podràs gaudir dels teus
       esdeveniments sense patir els efectes de la ressaca de l'endemà.
-    keywords: ressaca, antiressaca, evitar, prevenir, curar, mal de cap, anticipar,
-      alcohol, remeis per a la ressaca, remei, festa, party, copa, discoteca, cervesa,
-      vi, finde, cap de setmana, amics, amigues, bodes, comiats de solter, comiats
-      de soltera, viatge, viatges, bachellor, erasmus, residència d'estudiants, farmàcia,
-      salut, sanitat, natural, cardo mariano, vitamina, vitamina B12, B12, B 12, complex
-      multivitaminic, comprimits, pastilles, capsules, Celine Dion, música, dj, kit
-      antiressaca, economic, sexe, porno, prono, droga, drogues, timo, fake, ibuprofeno,
-      aspirina, ibu, ibuporfeno, hang over, hangover, star wars, agua, suc de taronja,
-      B1, B2, B6, acetilcisteina
+    keywords: ressaca, pastilles per ressaca, antiressaca, mal de cap, nausees alcohol,
+      vitamina B12, cardo mariano, previndre ressaca, curar ressaca
   menu:
     home:
       title: Inici
@@ -61,11 +54,27 @@ ca:
     contact:
       title: Contacte
     shops:
-      title: On trobar-nos
+      title: Punts de venda
+    return:
+      title: Condicions de Devolució i Reemborsament
+    privacy:
+      title: Politica de privacitat
+    legaladvise:
+      title: Advertencia Legal
+    generalterm:
+      title: Condicions Generals
     product:
       title: Producte
     about:
       title: Sobre nosaltres
+  return:
+    title: Condicions de Devolució i Reemborsament
+  privacy:
+    title: Politica de privacitat
+  legaladvise:
+    title: Advertencia Legal
+  generalterm:
+    title: Condicions Generals
   generic:
     language: Idioma
   locales:
@@ -118,8 +127,10 @@ ca:
     company:
       name: Dion Resakapsulus Spain S.L.
     email: info@dioniberica.com
-    address: C/ Riera de'n Font, 60A, 2-5, Tiana (Barcelona)
+    address: C/ Riera de'n Font, 60 Tiana (Barcelona)
     telephone: "(+34) 627.179.740"
+    working:
+      hours: Atenció Telefónica de Dilluns a Divendres de 8:00 a 16:00
     issim:
       text: 'Imatges per cortesia de l''estudi fotogràfic professional:'
       logo: "/logo_issim"
@@ -134,17 +145,26 @@ ca:
       title: Preguntes no tan freqüents
       text: Hem creat una altra llista amb preguntes menys freqüents però que creiem
         que també mereixen una resposta.
+    section3:
+      title: Preguntes relacionades amb els lliuraments de les comandes
+      text: Hem recopilat les principals preguntes relacionades amb el lliurament
+        de les comandes
   product:
     title: Blíster de 10 comprimits Dion
     price:
       title: Preu
-      data: 5,5 € (IVA incluido)
+      data: 5,95 € (IVA inclòs)
     cad:
       title: 'Caducitat:'
       data: 3 anys
     shipping:
       title: 'Mètode d''enviament:'
-      data: Correu ordinari amb sobre reforçat.
+      data: Correu ordinari.
+    special-shipping:
+      title: 'Condicions especials:'
+      data: |-
+        Les comandes superiors a 25€ s'enviaran per correu urgent.
+        Comanda mínima de 15€ per a compres des de la Unió Europea fora d'Espanya.
     composition:
       title: Composició
     cm:
@@ -166,7 +186,7 @@ ca:
         title: 'Beneficis de la B12:'
       contraindicaciones:
         title: 'Contraindicacions de la B12:'
-        description: No s'ha demostrat que la vitamina B12 causi cap mena de mal.
+        description: No hi ha indicis de que la vitamina B12 causi cap mena de mal.
       data: La vitamina B12, o cobalamina, és una vitamina hidrosoluble que el cos
         humà absorbeix diàriament per a mantenir-se saludable. L'ús d'alcohol consumeix
         una gran quantitat d'aquesta vitamina i impacta sobre la mucosa gàstrica i
@@ -185,6 +205,13 @@ ca:
       apply: Aplicar
     stock: En estoc
     checkout: Pagar
+    delivery:
+      text: La seva comanda serà dipositada en la bústia de l'adreça que ens indiqui.
+    comercial:
+      delivery:
+        text: En cas d'indicar una adreça que correspongui a un lloc de treball o
+          local comercial, indiqui el seu nom i el nom del comerç per facilitar el
+          lliurament de la seva comanda.
   about:
     partners:
       title: Socis comercials
@@ -200,15 +227,19 @@ ca:
   thankyou:
     old:
       thanks: "{NAME}, gràcies per confiar en nosaltres"
-    thanks: Gràcies per confiar amb nosaltres
+    thanks: Gràcies per confiar en nosaltres. Ben aviat rebràs un correu amb la confirmació
+      de la comanda.
     looking_forward: Esperem tornar-te a veure aviat!
     order_number: 'Comanda num: {ORDER}'
     amount: 'Total: {MONEY}'
     send_to: 'Enviar a: {ADRESS}'
     continue_shopping: Seguir comprant
   failure:
-    error: Lamentem comunicar-li que hi ha hagut un error amb la seva compra.
-    contact: Si us plau, contacti amb nosaltres.
+    error: Lamentem comunicar-li que hi ha hagut un error amb la seva compra, si us
+      plau torni a intentar-ho revisant que introdueix correctament les dades de la
+      seva targeta
+    contact: Si després d'intentar-ho de nou segueix apareixent aquest error, per
+      favor, posi's en contacte amb nosaltres
   checkout:
     failure:
       title: La teva cistella
@@ -218,8 +249,8 @@ ca:
     sender: info@dioniberica.com
     title: Gràcies per confiar en Dion
     subtitle: Acabem de rebre la teva comanda. Moltes gràcies!
-    text: Els articles que has demanat seran enviats tan aviat com ens sigui possible.
-      T'enviarem un correu confirmant la seva sortida del nostre magatzem.
+    text: La teva comanda será enviada tan aviat com ens sigui possible. T'enviarem
+      un correu confirmant la seva sortida del nostre magatzem.
     purchaseNumber:
       title: Número de comanda
     data:
