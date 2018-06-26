@@ -25,15 +25,15 @@ en:
       title: SUGGESTIONS
       more: More information
     opinion:
-      title: Opinios and feedback
+      title: Opinions and feedback
     composition:
       title: Composition
       text: Natural food supplement composed by vitamins and plant extracts.
       product:
         photo: "/producto/PT/blister-design.jpg"
       price:
-        value: 5,65€
-        VAT: "(VAT not included)"
+        value: 5,95€
+        VAT: "(VAT included)"
       more:
         info: More info
     add-to-cart:
@@ -41,14 +41,8 @@ en:
   meta:
     description: Take a Dion and be able to party and to avoid hangover in the next
       day.
-    keywords: hangover, hungover, anti hangover, avoid, prevent, headache, alcohol,
-      solution, remedy, party, disco, discotheque, night club, beer, wine, weekend,
-      friends, wedding, hen party, hen do, bachelorette party, stag party, stag do,
-      bachelor party, leaving party, going-away party, trip, travel, erasmus, student,
-      student residence, pharmacy, chemist, health, natural, cardo mariano, vitamin,
-      B12 vitamin, B12, B 12,  multivitaminic complex, tablet, pill, Celine Dion,
-      music, dj, kit anti hangover, economic, cheap, sex, porn, pron, drug, ibuprofeno,
-      aspirina, star wars, water, orange, orange juice, B1, B2, B6, acetilcisteina
+    keywords: hangover, hungover, anti hangover, headache, alcohol, B12 vitamin, silimarine,
+      prevent hangover
   menu:
     home:
       title: Home
@@ -57,11 +51,27 @@ en:
     contact:
       title: Contact
     shops:
-      title: Where to find us
+      title: Points of sale
+    return:
+      title: Return Conditions
+    privacy:
+      title: Privacy Policy
+    legaladvise:
+      title: Legal Notice
+    generalterm:
+      title: General Terms
     product:
       title: Product
     about:
       title: About
+  return:
+    title: Return Conditions
+  privacy:
+    title: Privacy Policy
+  legaladvise:
+    title: Legal Notice
+  generalterm:
+    title: General Terms
   generic:
     language: Language
   locales:
@@ -85,16 +95,16 @@ en:
     button:
       send: Send
     footer:
-      address: Adress
+      address: Address
       mail: Contacts
       social: Social
     socialmedia:
-      facebook: https://www.facebook.com/dionport/
-      instagram: https://www.instagram.com/dion_pt
+      facebook: https://www.facebook.com/dionIberica/
+      instagram: https://www.instagram.com/dion_spain
     map:
-      longitude: '38.692116'
-      latitude: "-9.3218501"
-      description: Dion Iberica LDA
+      longitude: '41.4836682'
+      latitude: '2.2704794'
+      description: Dion Resakapsulus Spain S.L.
     message_placeholder: Your message
     subject_placeholder: Your subject
     telephone_placeholder: Enter your telephone
@@ -113,10 +123,12 @@ en:
     follow:
       title: Follow us
     company:
-      name: Dion Iberica LDA
-    email: info-pt@dioniberica.com
-    address: Alameda Conde Oeiras - Torre I R/C Esq. 2780-139 Oeiras
-    telephone: "(+351) 91 261 38 66"
+      name: Dion Resakapsulus Spain S.L.
+    email: info@dioniberica.com
+    address: C/ Riera de'n Font, 60 Tiana (Barcelona)
+    telephone: "(+34) 627.179.740"
+    working:
+      hours: Telephone Assistance from Monday to Friday from 8:00 a.m. to 4:00 p.m
     issim:
       text: 'Pictures provided by:'
       logo: "/logo_issim"
@@ -131,17 +143,24 @@ en:
       title: Not so Frequently Asked Questions
       text: We have created a second list, of non frequently asked questions, that
         we also believe to deserve an answer.
+    section3:
+      title: Order Deliveries Related Questions
+      text: These are the main questions related with the order deliveries
   product:
     title: 10 tablet blister
     price:
       title: Price
-      data: 6.95 € (VAT Included)
+      data: 5.95 €  (VAT Included)
     cad:
       title: 'Validity:'
       data: 3 years
     shipping:
       title: 'Shipping method:'
       data: Ordinary post with reinforced envelope to stand behind product integrity.
+    special-shipping:
+      title: 'Special conditions:'
+      data: Minimum purchase of 2 blisters for purchases from European Union countries
+        that are not Spain or Portugal.
     composition:
       title: Composition
     cm:
@@ -182,6 +201,13 @@ en:
       apply: Apply
     stock: Stock
     checkout: Pay
+    delivery:
+      text: Your order will be deposited in your address mailbox.
+    comercial:
+      delivery:
+        text: In case to indicate an address that correspond to a workplace or commercial
+          venue, indicate your name and the name of the venue to facilitate the delivery
+          of your order.
   about:
     partners:
       title: Partners
@@ -213,7 +239,7 @@ en:
     success:
       title: Your cart
   mail:
-    sender: info.pt@dioniberica.com
+    sender: info@dioniberica.com
     title: We appreciate your trust in Dion
     subtitle: We have just received your purchase. Thank you!
     text: Your articles will be sent as soon as posible.
@@ -241,10 +267,10 @@ en:
       total: Total
     footer:
       help: Do you need any help? Please, contact with us and we will do our best.
-      call: 'Call us: (+351) 91 261 38 66'
+      call: 'Call us: (+34) 627.17.97.40.'
       send: Or send us an e-mail
-      email: info.pt@dioniberica.com
-      provider: This e-mail has been sent by Dion Portugal
+      email: info@dioniberica.com
+      provider: This e-mail has been sent by Dion Spain
   shops:
     title: Where to find us
     subtitle: In the following map you can see all the points of sale of Dion. If
