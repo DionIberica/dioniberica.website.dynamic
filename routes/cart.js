@@ -7,7 +7,8 @@ const sendCheckoutEmail = require('../lib/emails/checkout');
 const router = express.Router();
 
 router.all('*', (req, res, next) => {
-  const locale = (req.query.locale || req.body.locale || req.session.locale).split('_')[0];
+  const reqLocale = (req.query.locale || req.body.locale || req.session.locale);
+  const locale = (reqLocale || 'es_ES').split('_')[0];
   const envName = (req.app.get('env') === 'development' ? 'TEST_' : '') + 'STRIPE';
 
   req.cart = new Cart(Stripe(process.env[envName]), req.session, 1, 100, locale);
